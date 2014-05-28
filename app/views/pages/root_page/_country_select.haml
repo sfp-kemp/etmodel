@@ -1,4 +1,4 @@
-%p= t("choose_country")
+%label(for="area_code")= t("choose_country")
 %select{:name => "area_code"}
   - area_links.each do |area_code|
     - if area_code[:data]

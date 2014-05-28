@@ -20,20 +20,8 @@ describe PagesController, :vcr => true do
   end
 
   context "setting custom year values" do
-    it "should have custom year field" do
-      get :root
-      response.should have_selector("form") do |form|
-        form.should have_selector("select", :name => 'other_year')
-      end
-    end
-
-    it "should not select custom year values if it's not selected" do
-      post :root, :area_code => "nl", :other_year => '2034'
-      session[:setting].end_year.should_not == 2034
-    end
-
     it "should not select other field" do
-      post :root, :area_code => "nl", :end_year => 'other', :other_year => '2036'
+      post :root, :area_code => "nl", :end_year => '2036'
       session[:setting].end_year.should == 2036
     end
   end

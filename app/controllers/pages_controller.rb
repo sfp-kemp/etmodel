@@ -1,8 +1,11 @@
 class PagesController < ApplicationController
   include ApplicationHelper
+
   before_filter :ensure_valid_browser, :except => [:browser_support]
+
   layout 'static_page', :only => [:about, :units, :browser_support, :bugs,
     :disclaimer, :privacy_statement, :quality]
+  layout 'basic', only: [:root]
 
   def root
     if request.post?
@@ -50,9 +53,11 @@ protected
 
   def assign_settings_and_redirect
     session[:dashboard] = nil
-    Current.setting = Setting.default
-    Current.setting.end_year = (params[:end_year] == "other") ? params[:other_year] : params[:end_year]
+
+    Current.setting           = Setting.default
+    Current.setting.end_year  = params[:end_year]
     Current.setting.area_code = params[:area_code]
+
     redirect_to play_path and return
   end
 

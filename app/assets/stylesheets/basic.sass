@@ -1,0 +1,651 @@
+@import reset
+@import font-awesome
+@import magnific-popup
+
+@import compass/css3/border-radius
+@import compass/css3/images
+@import compass/css3/box-shadow
+@import compass/css3/font-face
+@import compass/css3/transform
+@import compass/css3/filter
+@import compass/css3/user-interface
+@import compass/utilities/sprites
+
+@import mixins
+@import buttons
+
+@import "flags/flags-iso-24/*.png"
+@import "flags/flags-iso-48/*.png"
+
+$basic-width: 800px
+$background-color: #ebeff4
+$dark-grey: #303438
+$blue-grey: #6D757E
+$grey-border: #cbcfd2
+$vertical-space: 30px
+$vertical-space-big: 60px
+$blue: #598ecf
+$green: #608f51
+
+@include font-face("TitilliumQ", font-files(asset-path("/assets/titillium-regular-web.ttf"), asset-path("/assets/titillium-regular-web.woff")), asset-path("/assets/titillium-regular-web.eot"), normal)
+@include font-face("TitilliumQ", font-files(asset-path("/assets/titillium-semibold-web.ttf"), asset-path("/assets/titillium-semibold-web.woff")), asset-path("/assets/titillium-semibold-web.eot"), 600)
+
+// -----------------------------------------------------------------------------
+
+@mixin small-text
+  font-size: 13px
+  line-height: 18px
+
+@mixin country-icon($sprite)
+  @include flags-iso-24-sprite-position($sprite, 0, -3)
+  @include hidpi
+    @include flags-iso-48-sprite-position($sprite, 0, -6)
+
+@mixin chevrons
+  .fa-chevron-right
+    margin: 3px 0 0 3px
+    font-size: 11px
+    vertical-align: top
+
+    & + .fa-chevron-right
+      margin-left: -5px
+
+@mixin primary-button
+  @include chevrons
+  background: $blue
+  @include background(linear-gradient(#74a7e0, #5488c4))
+  box-shadow: inset 0 -1px 0 #497bbb, 0 1px 3px rgba(0,0,0,0.10)
+  border: none
+  border-radius: 3px
+  cursor: pointer
+  color: white
+  font: bold 12px "Helvetica Neue", Arial, Helvetica, sans-serif
+  outline: none
+  padding: 10px 15px 9px
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2)
+  text-transform: uppercase
+  -webkit-font-smoothing: antialiased
+
+  &:hover
+    @include background(linear-gradient(#7bb2e9, #5990cf))
+    box-shadow: inset 0 -1px 0 #4d82c6, 0 1px 3px rgba(0,0,0,0.15)
+
+  &:active
+    @include background(linear-gradient(#5f93d0, #6699d2))
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1), 0 1px 0 white
+
+@mixin secondary-button
+  @include chevrons
+  background: white
+  border: 2px solid lighten($blue-grey, 35%)
+  border-radius: 4px
+  color: lighten($blue-grey, 10%)
+  display: inline-block
+  font: bold 12px "Helvetica Neue", Arial, Helvetica, sans-serif
+  padding: 9px 13px 8px
+  text-align: center
+  text-decoration: none
+  text-rendering: optimizeLegibility
+  text-transform: uppercase
+  transition: border-color 0.15s
+  -webkit-font-smoothing: antialiased
+
+  &:hover
+    border-color: lighten($blue-grey, 20%)
+
+// -----------------------------------------------------------------------------
+
+html
+  background-color: $background-color
+
+body
+  font: 14px/22px "Helvetica Neue", Arial, sans-serif
+  margin: 0
+  height: auto
+  padding-bottom: 50px
+
+h4
+  font-size: 16px
+  font-weight: normal
+
+// Landing / Root Page ---------------------------------------------------------
+
+// Generics
+// --------
+
+// Columns
+.what-is-et, .using-etm, #start-scenario, #load-scenario
+  float: left
+  width: $basic-width / 2 - 10px
+
+// Left columns.
+.what-is-et, #start-scenario
+  padding-right: 10px
+
+// Right columns.
+.using-etm, #load-scenario
+  padding-left: 10px
+
+// Right columns.
+
+// Introductory text
+// -----------------
+
+.blurb
+  font: 19px/28px TitilliumQ, "Helvetica Neue", Arial, Helvetica, serif
+  text-align: center
+  margin: $vertical-space-big auto $vertical-space
+  text-rendering: optimizeLegibility
+  width: $basic-width
+
+  h1
+    color: $dark-grey
+    font-weight: normal
+    font-size: 40px
+    line-height: 45px
+    margin-bottom: $vertical-space
+    padding: 0 75px
+  p
+    color: $blue-grey
+    margin-top: 10px
+    padding: 0 25px
+
+// Header and navigation
+// ---------------------
+
+header
+  background: white
+  border-bottom: 1px solid $grey-border
+  margin-botom: $vertical-space-big
+  padding: 20px 0 18px
+
+  .wrap
+    @include clearfix
+    margin: 0 auto
+    width: $basic-width
+
+  a.logo
+    display: block
+    float: left
+    line-height: 0
+    width: 300px
+
+  a
+    text-decoration: none
+
+  ul.menu
+    list-style: none
+    float: left
+    font-size: 12px
+    font-weight: bold
+    margin: 9px 0 0
+    padding: 0
+    text-transform: uppercase
+    width: $basic-width - 300px
+    -webkit-font-smoothing: antialiased
+
+    li
+      &.sign-in, &.language, &.info
+        float: right
+        margin-left: 10px
+        position: relative
+
+    a
+      color: lighten($blue-grey, 20%)
+      padding: 10px
+
+      &:hover
+        color: $blue-grey
+
+      .fa
+        margin-left: 2px
+        margin-top: 1px
+        vertical-align: text-top
+
+    .header_menu
+      background: white
+      background-clip: padding-box
+      border: 1px solid $grey-border
+      border: 1px solid rgba(0, 0, 0, 0.1)
+      border-radius: 5px
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15)
+      display: none
+      font-size: 13px
+      font-weight: normal
+      padding: 10px
+      position: absolute
+      text-transform: none
+      top: 30px
+      white-space: nowrap
+      z-index: 5
+      -webkit-font-smoothing: subpixel-antialiased
+
+      ul
+        list-style: none
+        line-height: 1
+        padding: 0
+        margin: -5px -10px
+
+        li
+          padding: 7px 15px
+
+        a
+          color: $blue-grey
+          display: block
+          padding: 7px 30px 7px 15px
+          margin: -7px -15px
+
+          &:hover
+            background: lighten($grey-border, 13%)
+
+    #signin_menu
+      left: -100px
+      padding: 0 20px 10px
+      width: 200px
+
+      input.string, input.password
+        width: 184px
+
+      a
+        border-top: 1px solid $grey-border
+        display: block
+        margin-top: 10px
+        padding: 7px 0
+
+      input.button
+        @include primary-button
+
+// Scenario selection (start, resume, presets)
+// -------------------------------------------
+
+#scenario-launcher
+  @include background(linear-gradient(90deg, $background-color 0%, #e2e6ec 50%, $background-color 100%))
+  padding: 20px 0
+  margin: $vertical-space auto $vertical-space-big
+  overflow: hidden
+  width: $basic-width
+
+  .choice
+    @include secondary-button
+    border-radius: 5px
+    font: 600 15px/1 TitilliumQ, "Helvetica Neue", Arial, Helvetica, sans-serif
+    min-width: 220px
+    -webkit-font-smoothing: subpixel-antialiased
+
+  #resume-scenario
+    text-align: center
+    margin-bottom: 20px
+
+  #start-scenario
+    text-align: right
+
+  #load-scenario .choice
+    padding: 20px 40px 18px
+
+  &.resume-inactive #resume-scenario
+    display: none
+
+  &.resume-inactive #start-scenario, &.resume-active #resume-scenario
+    .choice
+      @include primary-button
+      border-radius: 5px
+      font: 600 15px/1 TitilliumQ, "Helvetica Neue", Arial, Helvetica, sans-serif
+      padding: 22px 42px 20px
+      -webkit-font-smoothing: subpixel-antialiased
+
+  &.resume-active
+    #start-scenario, #load-scenario
+      .choice
+        padding: 14px 20px 12px // -6px halved -6px halved
+
+  form
+    text-align: center
+    select
+      font-size: 16px
+
+// Video guides
+// ------------
+
+.video-intro
+  overflow: hidden
+  padding-bottom: 10px
+  margin-bottom: -10px
+  margin: $vertical-space-big auto
+  width: $basic-width
+
+  .bar
+    background: $grey-border
+    height: 1px
+    margin: 0 auto $vertical-space-big
+    width: 400px
+
+  .video
+    border-radius: 5px
+    color: black
+    cursor: pointer
+    margin-top: -10px
+    margin-bottom: -10px
+    padding-top: 10px
+    padding-bottom: 10px
+    text-decoration: none
+
+  .media
+    border: 1px solid #ccc
+    display: inline-block
+    float: left
+    margin-right: 15px
+
+  h4, p
+    margin: 2px 0 0
+
+  p
+    @include small-text
+    margin-top: 6px
+
+  .media-inner
+    background: #f9f9f9
+    border: 3px solid white
+    height: 9px * 7
+    position: relative
+    width: 16px * 7
+
+    .fa
+      color: white
+      font-size: 32px
+      left: 49px
+      position: absolute
+      top: 17px
+
+  .what-is-et
+    text-align: right
+
+    .media
+      float: right
+      margin-left: 15px
+      margin-right: 0
+
+    &:hover
+      @include background(linear-gradient(90deg, transparent, white))
+
+    .media-inner
+      background-image: asset-url("assets/landing/intro-movie-1.jpg")
+      background-size: 112px 63px
+      float: right
+
+  .using-etm
+    &:hover
+      @include background(linear-gradient(270deg, transparent, white))
+
+    .media-inner
+      background-image: asset-url("assets/landing/intro-movie-2.jpg")
+      background-size: 112px 63px
+
+// -----------------------------------------------------------------------------
+
+#new-scenario-form
+  border: 1px solid $grey-border
+  border-radius: 5px
+  max-width: 500px
+  margin: 0 auto
+  padding: 0
+  @include user-select(none)
+
+  h3
+    @include background(linear-gradient(white, $background-color))
+    color: darken($blue-grey, 10%)
+    font-size: 13px
+    font-weight: normal
+    line-height: 1
+    margin: 0 -20px 20px
+    padding: 28px 20px 0
+    text-align: center
+    text-shadow: 0 1px 0 white
+    text-transform: uppercase
+
+    .num
+      background-color: darken($blue-grey, 10%)
+      border-radius: 100px
+      color: white
+      display: inline-block
+      font-size: 96px
+      margin-right: 3px
+      opacity: 0.05
+      padding: 10px 30px
+      position: absolute
+      left: -25px
+      text-shadow: none
+      top: -25px
+      z-index: 1
+      @include transform(rotate(-20deg))
+
+  .region, .year
+    overflow: hidden
+    padding: 0 20px
+    position: relative
+
+    ol, ul
+      position: relative
+      z-index: 2
+
+  .region
+    h3
+      border-top-left-radius: 5px
+      border-top-right-radius: 5px
+
+    ul
+      list-style: none
+      margin: -5px -20px 25px 0
+      overflow: hidden
+      padding: 0
+
+      li
+        border-radius: 3px
+        display: block
+        cursor: pointer
+        float: left
+        margin: 5px 20px 0 0
+        line-height: 1
+        padding: 10px 10px 7px
+        width: 200px
+
+        .icon
+          @include flags-iso-24-sprite("nl", 0, 0, -3)
+          display: inline-block
+          height: 20px
+          margin-top: -1px
+          margin-right: 1px
+          vertical-align: text-top
+          width: 24px
+          @include hidpi
+            // @include flags-iso-48-sprite("nl", 0, 0, -3)
+            // height: 20px
+            // width: 24px
+            background-image: $flags-iso-48-sprites
+            background-size: 24px 168px
+
+        &.de .icon
+          @include flags-iso-24-sprite-position("de", 0, -3)
+
+        &.eu .icon
+          @include flags-iso-24-sprite-position("_European_Union", 0, -3)
+
+        &.uk .icon
+          @include flags-iso-24-sprite-position("gb", 0, -3)
+
+        &.pl .icon
+          @include flags-iso-24-sprite-position("pl", 0, -3)
+
+        &.es .icon
+          @include flags-iso-24-sprite-position("es", 0, -3)
+
+        &.fr .icon
+          @include flags-iso-24-sprite-position("fr", 0, -3)
+
+        .new, .draft
+          font-size: 11px
+          font-weight: normal
+          margin-left: 3px
+          text-transform: uppercase
+
+        .new
+          color: $green
+
+        .draft
+          color: $blue-grey
+
+        &:hover
+          background: white
+
+        &.active
+          background: $green
+          @include background(linear-gradient(#71a162, #679358))
+          box-shadow: inset 0 -1px 0 #608852, 0 1px 3px rgba(0,0,0,0.1)
+          color: white
+          text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2)
+
+          .new, .draft
+            color: #d3e0d1
+
+  .year
+    h3
+      border-top: 1px solid $grey-border
+
+    .custom
+      margin-bottom: 20px
+      text-align: center
+      select
+        font-size: 16px
+
+    ol
+      background: asset-url("landing/year-select.png") -282px -75px no-repeat
+      list-style: none
+      margin: 15px 20px 25px
+      overflow: hidden
+      padding: 0 0 0 44px
+
+      background-image: asset-url("landing/year-select@2x.png")
+      background-size: 376px 225px
+
+      li
+        background: asset-url("landing/year-select.png") 0 0 no-repeat
+        cursor: pointer
+        display: block
+        height: 75px
+        float: left
+        text-align: center
+        text-indent: -5000px
+        width: 94px
+
+        @include hidpi
+          background-image: asset-url("landing/year-select@2x.png")
+          background-size: 376px 225px
+
+        &.y2020
+          background-position: 0 -75px
+        &.y2030
+          background-position: -94px -75px
+        &.y2040
+          background-position: -188px -75px
+        &.y2050
+          background-position: -282px 0
+
+      &.sel-2020
+        .y2020
+          // Active
+          background-position: 0 -150px
+        .y2030
+          // Inactive
+          background-position: -94px 0
+        .y2040
+          // Inactive
+          background-position: -188px 0
+        .y2050
+          // Inactive
+          background-position: -282px 0
+
+      &.sel-2030
+        .y2030
+          // Active
+          background-position: -94px -150px
+        .y2040
+          // Inactive
+          background-position: -188px 0
+        .y2050
+          // Inactive
+          background-position: -282px 0
+
+      &.sel-2040
+        .y2040
+          // Active
+          background-position: -188px -150px
+        .y2050
+          // Inactive
+          background-position: -282px 0
+
+      &.sel-2050
+        .y2050
+          // Active
+          background-position: -282px -150px
+
+    .select-custom
+      // color: #a8b1b8
+      color: lighten($blue-grey, 22%)
+      font-size: 12px
+      font-weight: bold
+      margin-bottom: 25px
+      text-align: center
+      text-transform: uppercase
+      -webkit-font-smoothing: antialiased
+
+      a
+        @include secondary-button
+        background: none
+        padding: 4px 7px 3px
+        margin-left: 5px
+
+  .commit
+    background: rgba(0, 0, 0, 0.05)
+    border-top: 1px solid darken($grey-border, 10%)
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1)
+    padding: 15px 20px
+    text-align: center
+
+    button
+      @include primary-button
+
+      .fa-chevron-right
+        margin-left: 2px
+        font-size: 9px
+
+    a
+      @include secondary-button
+
+    .or
+      color: #888
+      font-size: 12px
+      margin: 0 10px
+      text-transform: uppercase
+
+// --
+header, #content
+  transform: translateZ(0)
+  -webkit-transition: -webkit-filter 0.2s
+
+body.blur
+  header, #content
+    -webkit-filter: blur(2px)
+
+// Forms
+// -----
+
+input.string, input.password, textarea
+  border: 1px solid #bbb
+  border-radius: 3px
+  padding: 7px
+  font: 13px "Helvetica Neue", Arial, Helvetica, sans-serif
+  transition: border-color .1s, box-shadow .1s
+
+  &:focus
+    border-color: #4b8ac2
+    box-shadow: 0 0 7px #73abd9
+    outline: none

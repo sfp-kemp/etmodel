@@ -1,7 +1,22 @@
 en:
   intro:
-    what_is_this: "What is this?"
-    how_does_this_work: "How does this work?"
-    introduction: "Introduction to the Energy Transition Model"
-    root_text: |
-      We all need energy every day. Fifty years from now, will energy still be cheap and abundant in the Western World? How can we plan for a future where energy is no longer a commodity? Using verified energy data, the Energy Transition Model (ETM) aims to give you insight into what may happen in the future.
+    what_is_et:
+      title: What is energy transition?
+      description: |
+        Learn about what energy transition entails, and why it matters to you.
+
+    how_it_works:
+      title: How does the model work?
+      description: |
+        Learn how to use the ETM to design your ideal energy future.
+
+    headline: How can we plan for a future when energy is no longer a commodity?
+    description: |
+      We all need energy every day. Fifty years from now, will energy still be
+      cheap and abundant in the Western World? Using verified energy data, the
+      Energy Transition Model (ETM) aims to give you insight into what may
+      happen in the future, and is completely free to use.
+
+    resume_previous: Resume your previous scenario
+    start_new:       Start a new scenario
+    load_preset:     Load a pre-made scenario

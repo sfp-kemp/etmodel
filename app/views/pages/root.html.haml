@@ -1,27 +1,76 @@
-#startbar
-  - if has_active_scenario?
-    %h4#continue_current_scenario
-      %a{:href => Current.setting.last_etm_page,
-         :alt => "continue",
-         :title => "continue"}= t('intro.continue_with_current_scenario')
+#landing
+  .blurb
+    %h1= t('intro.headline')
+    %p= t('intro.description')
 
-  %h4#new_scenario_button
-    %a{href: '#top'}= t 'intro.start_a_new_scenario'
-  #new_scenario{style: "display: none;"}
+  #scenario-launcher{ class: "resume-#{ has_active_scenario? ? '' : 'in' }active" }
+    - if has_active_scenario?
+      #resume-scenario
+        %a.choice{ href: Current.setting.last_etm_page }
+          %span.text= t('intro.resume_previous')
+          %span.fa.fa-chevron-right
+          %span.fa.fa-chevron-right
+    #start-scenario
+      %a.choice(href="#")
+        %span.text= t('intro.start_new')
+        %span.fa.fa-chevron-right
+        %span.fa.fa-chevron-right
+    #load-scenario
+      %a.choice(href="#")
+        %span.text= t('intro.load_preset')
+        %span.fa.fa-chevron-right
+        %span.fa.fa-chevron-right
+
+  #new-scenario-form(style="display: none")
     = form_tag root_path do
-      = render "pages/root_page/country_select"
-      = render "pages/root_page/year_select"
-      #submit
-        = render "pages/root_page/start_button"
-  .clear
-  %h4#existing_scenario_button
-    %a{href: '#top'}= t 'intro.load_a_scenario'
-  #existing_scenario{style: "display: none;"}
-    = render 'pages/root_page/existing_scenario'
+      %input{ type: 'hidden', name: 'area_code', value: Current.setting.area_code || 'nl' }
+      .region
+        %h3
+          %span.num 1
+          Select a
+          %strong region
+        %ul
+          - Api::Area.all_in_display_order.each do |area|
+            %li{ 'class' => area.area, 'data-region' => area.area }
+              %span.icon
+              = t(area.area)
+              = area_status_suffix(area)
+      .year
+        %h3
+          %span.num 2
+          Choose an
+          %strong end year
+        .custom(style="display: none")
+          Custom end year:
+          = scenario_year_select
+        .common
+          %ol
+            %li.y2020(data-year="2020") 2020
+            %li.y2030(data-year="2030") 2030
+            %li.y2040(data-year="2040") 2040
+            %li.y2050(data-year="2050") 2050
+          .select-custom
+            Or select a
+            %a(href="#") custom year
+      .commit
+        %button
+          Start Scenario
+          %span.fa.fa-chevron-right
+          %span.fa.fa-chevron-right
+        %span.or or
+        %a(href="#") Cancel
 
-#information
-  = render 'pages/root_page/movies'
-  #load_existing_scenario{style: "display: none;"}
-    = render 'pages/root_page/load_existing_scenario'
-  .clear
-.clear
+  .video-intro
+    .bar
+    %a.video.what-is-et{ href: intro_movie_url(:what) }
+      .media
+        .media-inner
+          .fa.fa-play
+      %h4= t('intro.what_is_et.title')
+      %p= t('intro.what_is_et.description')
+    %a.video.using-etm{ href: intro_movie_url(:how) }
+      .media
+        .media-inner
+          .fa.fa-play
+      %h4= t('intro.how_it_works.title')
+      %p= t('intro.how_it_works.description')

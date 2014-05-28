@@ -1,0 +1,50 @@
+!!! 5
+%html
+  %head
+    %title= t("meta.title")
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+    %meta{:description => "#{t('meta.description')}" }
+
+    = csrf_meta_tag
+
+    = stylesheet_link_tag 'basic'
+    = yield :head
+
+    - if ipad?
+      %meta{:name=>"viewport", :content=>"width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"}
+
+  %body.basic{ class: I18n.locale }
+    %header#top
+      .wrap
+        %a.logo{ href: root_path }
+          %img(src="/assets/header/logo300-blue@2x.png" width="300" height="38" alt="Energy Transition Model")
+        %ul.menu
+          %li.sign-in
+            - if current_user
+              %a.signout{:href=>"/logout"}= t("header.sign_out")
+            - else
+              %a.menu_toggler.signin{:href=>"#"}
+                = t("header.sign_in")
+                .fa.fa-chevron-down
+              = render "layouts/etm/signin_menu"
+          %li.language
+            %a.menu_toggler(href="#")
+              = t("header.settings")
+              .fa.fa-chevron-down
+            = render "layouts/etm/settings_menu"
+          %li.info
+            %a.menu_toggler(href="#")
+              = t("header.information")
+              .fa.fa-chevron-down
+            = render "layouts/etm/information_menu"
+
+    #content
+      = content_for?(:content) ? yield(:content) : yield
+
+    = javascript_include_tag 'application'
+
+    :javascript
+      I18n.defaultLocale = "#{I18n.default_locale}";
+      I18n.locale = "#{I18n.locale}";
+
+    = yield :scripts

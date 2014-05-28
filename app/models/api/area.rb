@@ -1,6 +1,13 @@
 class Api::Area < ActiveResource::Base
   self.site = "#{APP_CONFIG[:api_url]}/api/v3"
 
+  # Acceptable states are: :new or :draft.
+  AREA_STATUSES = { de: :new, eu: :new }
+
+  # Sets in which order to display the countries. Any omitted from the list will
+  # be shown at the end, in alphabetical order.
+  DISPLAY_ORDER = [:nl]
+
   # This list of attributes is used in the forms where you can set the
   # area dependencies for an object, such as the input_elements
   #
@@ -34,7 +41,22 @@ class Api::Area < ActiveResource::Base
     @areas_by_country[area_code]
   end
 
+  def self.all_in_display_order
+    areas    = self.all
+    implicit = areas.reject { |area| DISPLAY_ORDER.include?(area.area.to_sym) }
+
+    explicit = DISPLAY_ORDER.map do |code|
+      areas.detect { |area| area.area.to_sym == code }
+    end.compact
+
+    explicit + implicit.sort_by { |area| I18n.t(area.area) }
+  end
+
   def use_network_calculations?
     !!attributes[:use_network_calculations]
+  end
+
+  def status
+    AREA_STATUSES[self.area.to_sym]
   end
 end

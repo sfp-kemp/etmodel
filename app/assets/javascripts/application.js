@@ -13,8 +13,10 @@
 //= require intro
 //= require flowplayer.playlist-3.0.8.min
 //= require admin
+//= require root
 //= require common_interface
 //= require fancybox
+//= require magnific-popup
 //= require i18n
 //= require i18n/translations
 //= require sign_up_form

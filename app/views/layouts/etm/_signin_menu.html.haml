@@ -6,15 +6,14 @@
     %p
       = f.label :email, t("user.email")
       %br
-      = f.text_field :email
+      = f.text_field :email, class: 'string'
     %p
       = f.label :password, t("user.password")
       %br
-      = f.password_field :password
+      = f.password_field :password, class: 'password'
     %p
-      = f.label :remember_me, t("user.remember")
-      %br
       = f.check_box :remember_me, :checked => "checked"
-    = f.submit 'Login'
+      = f.label :remember_me, t("user.remember")
+    = f.submit 'Login', class: 'button'
   %a{:href => new_user_path}= "#{t("or")} #{t("header.create_account")}"
 
