@@ -53,7 +53,6 @@ class @CommonInterface
     # Expand menus
     #
     $("a.menu_toggler").on 'click', (e) =>
-      console.log e
       $t = $(e.currentTarget)
       is_open = $t.hasClass('menu-open')
       @close_all_menus()
