@@ -32,6 +32,7 @@ en:
   header:
     about_qi: "About Quintel Intelligence"
     add_chart: "Add chart"
+    advanced_tools: "Advanced tools"
     back_to_model: "Go back to the model"
     bugs: "Known issues"
     create_account: "Create account"
@@ -45,9 +46,10 @@ en:
     education: "Education"
     feedback: "Feedback"
     information: "Information"
+    learn_etmoses: 'Learn about ETMoses'
     load_scenario: "Load scenario"
     scale_scenario: 'Scale this scenario'
-    save_and_enter_testing_ground: 'Save and open as local energy solution'
+    save_and_enter_testing_ground: 'Open as local energy solution'
     merit_order_check: "Enable merit order"
     notify_of_grid_investments: "Grid investment notification"
     overview: "Overview"
@@ -59,7 +61,7 @@ en:
     prominent_users_of_etm: "Prominent users of the Energy Transition Model"
     reset_scenario: "Reset scenario"
     save_scenario: "Save scenario"
-    settings: "Settings"
+    settings: "Options"
     show_graph: "Show graph"
     sign_in: "Log in"
     sign_out: "Log out"

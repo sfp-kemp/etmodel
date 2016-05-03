@@ -32,6 +32,7 @@ nl:
   header:
     about_qi: "Over Quintel Intelligence"
     add_chart: "Grafiek toevoegen"
+    advanced_tools: "Advanced tools"
     back_to_model:  "Ga terug naar het model"
     bugs: "Tekortkomingen"
     create_account: "Creëer account"
@@ -45,6 +46,7 @@ nl:
     education: "Onderwijs"
     feedback: "Reacties"
     information: "Informatie"
+    learn_etmoses: 'Learn about ETMoses'
     load_scenario: "Scenario laden"
     scale_scenario: 'Schaal dit scenario'
     save_and_enter_testing_ground: 'Opslaan en openen als lokale energie oplossing'

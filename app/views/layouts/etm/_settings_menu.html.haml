@@ -28,17 +28,24 @@
         %a.save{:href => new_scenario_path}= t("header.save_scenario")
         %a#reset_scenario{:href => scenario_reset_path}= t("header.reset_scenario")
 
-    - if Current.setting.api_session_id.present?
-      %li.sep
+    - if controller_name != 'pages' && has_active_scenario?
+      %li.sep.subheader
+        = t('header.advanced_tools')
+
+      %li
         = link_to t("header.show_graph"), et_engine_graph_url, target: "_blank"
 
-    - if controller_name != 'pages' && has_active_scenario?
-      %li.sep
+      %li.sep.subheader
+        ETMoses
       %li.scenario_option
         - if current_scenario_scaled?
           = link_to t('header.save_and_enter_testing_ground'), testing_grounds_path, target: "_blank", method: :post
         - else
           = link_to t('header.scale_scenario'), scaled_path
+
+      %li
+        = link_to t('header.learn_etmoses'), 'https://github.com/quintel/etmoses/wiki', target: '_blank'
+
       %li.sep
 
       - if Current.setting.use_peak_load
