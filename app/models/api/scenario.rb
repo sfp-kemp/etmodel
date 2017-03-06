@@ -18,6 +18,13 @@ class Api::Scenario < ActiveResource::Base
       .map { |scenario| new(scenario) }
   end
 
+  def self.find_with_queries(id, queries)
+    HTTParty.put(
+      "#{ APP_CONFIG[:api_url] }/api/v3/scenarios/#{ id }",
+      body: { gqueries: Array(queries) }
+    )
+  end
+
   # Public: Given an array of scenarios, an array of display groups, groups the
   # scenarios according to their display_group, in the order specified in the
   # group array.

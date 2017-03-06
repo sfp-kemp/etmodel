@@ -68,7 +68,9 @@ class @AppView extends Backbone.View
   # At this point we have all the settings initialized.
   bootstrap: =>
     @sidebar.bootstrap()
-    @router.load_default_slides()
+
+    unless Backbone.history.getFragment().match(/^reports\//)
+      @router.load_default_slides()
 
     # If a "change dashboard" button is present, set up the DashboardChanger.
     dashChangeEl = $('#dashboard_change')
@@ -81,7 +83,15 @@ class @AppView extends Backbone.View
     window.charts = @charts = new ChartList()
     @accordion = new Accordion()
     @accordion.setup()
-    @charts.load_charts()
+
+    if Backbone.history.getFragment().match(/^reports\//)
+      new ReportView({
+        components: window.reportData.components
+      }).renderInto($('#report'));
+
+      $('#report .loading').remove();
+    else
+      @charts.load_charts()
 
   setup_fce_toggle: ->
     if element = $('.slide .fce-toggle')
