@@ -77,7 +77,9 @@ module Report
       requirements = @components.flat_map(&:requirements)
 
       @query_data =
-        if requirements.empty? then {} else
+        if requirements.empty?
+          {}
+        else
           scenario = Api::Scenario.find_with_queries(@scenario_id, requirements)
           scenario['gqueries'].symbolize_keys.transform_values(&:symbolize_keys)
         end
