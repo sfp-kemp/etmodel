@@ -1,62 +1,77 @@
 ---
+# Define a simple header component.
 - h3: A Header
 
+# Two paragraphs which are shown only for a scenario where CO2 emissions are
+# greater than zero. Each paragraph contains a future(...) value which is a
+# query value from ETEngine.
 - if: future(total_co2_emissions) > 0
   children:
   - text: 1 - Electricity production costs future(costs_of_used_electricity).
-  - text: >-
+  - text:
       In your scenario, wind turbines and solar arrays are producing
       future(electricity_produced_from_wind_and_solar) of electricity, while
       natural gas is being used to create
       future(electricity_produced_from_natural_gas). Quis inventore nihil
       molestiae perspiciatis ut nam. Dolorum
 
+# A single text component (paragraph) which is only shown if the scenario has
+# no CO2 emissions.
 - if: future(total_co2_emissions) <= 0
   text: You created a scenario with no CO2 emissions. Nice!
 
-- text: >-
+# A text component which has no translations. The text will appear the same
+# regardless of the visitors language setting.
+- text:
     This component contains text, but does not have translations. For shame!
     Sit commodi natus molestias amet. Dolorem rerum ad fugiat. Minus dolore
     laboriosam quis distinctio aspernatur. Et aut doloribus eos sit.
 
+# A paragraph with separate EN and NL texts.
 - text:
-    en: >-
+    en:
       (EN) This component also contains text, but has separate translations for
       EN and NL locales! Praesentium rerum est optio porro adipisci. Nisi
       debitis asperiores rem. Quae dicta deserunt odit ut repudiandae.
       Perferendis corrupti delectus et quasi odio animi.
-    nl: >-
+    nl:
       (NL) This component also contains text, but has separate translations for
       EN and NL locales! Praesentium rerum est optio porro adipisci. Nisi
       debitis asperiores rem. Quae dicta deserunt odit ut repudiandae.
       Perferendis corrupti delectus et quasi odio animi.
 
+# A chart component. Chart 57 is "useful demand in residences". Intentio is to
+# change this from a numeric ID to the human-readable key.
+#
+# Note that the chart has a "text" child. This is shown as a caption beneath
+# the chart.
 - chart: 57
   children:
     - text:
-        en: >-
+        en:
           This is a chart which shows some interesting information about your
           scenario. Quis inventore nihil molestiae perspiciatis ut nam. Dolorum
           nihil animi repellendus et. Asperiores nihil voluptas dul ut omnis
           perferendis. Dolorem dolorem maxime praesentium laboriosam dolor
           aperiam.
-        nl: >-
+        nl:
           This is a chart which shows some interesting information about your
           scenario. Quis inventore nihil molestiae perspiciatis ut nam. Dolorum
           nihil animi repellendus et. Asperiores nihil voluptas dul ut omnis
           perferendis. Dolorem dolorem maxime praesentium laboriosam dolor
           aperiam.
 
+# Another chart. Why not?
 - chart: 46
   children:
     - text:
-        en: >-
+        en:
           Another chart which shows some interesting information about your
           scenario. Quis inventore nihil molestiae perspiciatis ut nam. Dolorum
           nihil animi repellendus et. Asperiores nihil voluptas dul ut omnis
           perferendis. Dolorem dolorem maxime praesentium laboriosam dolor
           aperiam.
-        nl: >-
+        nl:
           Another chart which shows some interesting information about your
           scenario. Quis inventore nihil molestiae perspiciatis ut nam. Dolorum
           nihil animi repellendus et. Asperiores nihil voluptas dul ut omnis
@@ -64,5 +79,4 @@
           aperiam.
 
 - text: 2 - QRS
-
 - text: 2 - TUV
