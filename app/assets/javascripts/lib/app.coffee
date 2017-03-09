@@ -85,10 +85,7 @@ class @AppView extends Backbone.View
     @accordion.setup()
 
     if Backbone.history.getFragment().match(/^reports\//)
-      new ReportView({
-        components: window.reportData.components
-      }).renderInto($('#report'));
-
+      new ReportView(window.reportData).renderInto($('#report'));
       $('#report .loading').remove();
     else
       @charts.load_charts()

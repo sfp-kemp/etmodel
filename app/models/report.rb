@@ -4,6 +4,13 @@
 module Report
   module_function
 
+  # Components may contain one of these keys to define the content of the
+  # component.
+  CONTENT_KEYS = %i(h1 h2 h3 h4 h5 h6 text chart).freeze
+
+  # Contains all keys which may be assigned to a component.
+  VALID_KEYS = (CONTENT_KEYS + %i(if children)).freeze
+
   def build(report)
     build_components(report)
   end
@@ -22,17 +29,20 @@ module Report
   #
   # Returns a Report::Component.
   def build_component(definition)
-    definition = definition.dup
-    children   = build_components(definition.delete(:children))
+    ComponentValidator.call(definition)
 
     ruleset =
       if definition[:if]
-        RuleSet.new([parse_rule_string(definition.delete(:if))])
+        RuleSet.new([parse_rule_string(definition[:if])])
       else
         RuleSet.new
       end
 
-    Report::Component.new(definition, ruleset, children)
+    Report::Component.new(
+      extract_content(definition),
+      ruleset,
+      build_components(definition[:children])
+    )
   end
 
   # Internal: Parses a rule string into a working Rule.
@@ -72,5 +82,13 @@ module Report
     else
       raise "Unknown operand #{ operand }"
     end
+  end
+
+  def extract_content(definition)
+    if (attribute = CONTENT_KEYS.detect { |key| definition.key?(key) })
+      return { type: attribute, content: definition[attribute] }
+    end
+
+    {} # No content; this is a container for other components.
   end
 end

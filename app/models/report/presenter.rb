@@ -9,14 +9,30 @@ module Report
     # component.
     CONTENT_KEYS = %i(h1 h2 h3 h4 h5 h6 text chart).freeze
 
-    def initialize(components, scenario_id, locale)
+    # Default scenario fetcher. Override in tests by giving a custom 'fetcher'
+    # argument when initializing.
+    FETCH_SCENARIO = lambda do |scenario_id, queries|
+      Api::Scenario.find_with_queries(scenario_id, queries)
+    end
+
+    def initialize(components, scenario_id, locale, fetcher: nil)
       @components  = components
       @scenario_id = scenario_id
       @locale      = locale
+      @fetcher     = fetcher || FETCH_SCENARIO
+      @errors      = []
     end
 
     def as_json(*)
-      { components: components_json(@components) }
+      # Eager fetch results so that we can skip creating components if there was
+      # an ETE error.
+      query_data
+
+      if @errors.any?
+        { errors: @errors, components: [] }
+      else
+        { components: components_json(@components) }
+      end
     end
 
     private
@@ -39,11 +55,10 @@ module Report
     #
     # Returns a hash.
     def component_json(component)
-      component.content.except(*CONTENT_KEYS).merge(
-        component_content(component.content)
-      ).merge(
+      component.content.merge(
+        content: component_content(component.content),
         children: components_json(Array(component.children))
-      )
+      ).compact
     end
 
     # Internal: Converts component content to be suitable for consumption as
@@ -51,19 +66,11 @@ module Report
     #
     # Returns a hash.
     def component_content(content)
-      CONTENT_KEYS.each do |attribute|
-        next unless content.key?(attribute)
-
-        new_attrs = { type: attribute, content: content[attribute] }
-
-        if new_attrs[:content].is_a?(Hash)
-          new_attrs[:content] = new_attrs[:content][@locale.to_s]
-        end
-
-        return new_attrs
+      if content[:content].is_a?(Hash)
+        content[:content][@locale.to_s]
+      else
+        content[:content]
       end
-
-      {} # No content; this is a container for other components.
     end
 
     # Internal: Fetches and returns query data from ETEngine for use in
@@ -80,9 +87,23 @@ module Report
         if requirements.empty?
           {}
         else
-          scenario = Api::Scenario.find_with_queries(@scenario_id, requirements)
-          scenario['gqueries'].symbolize_keys.transform_values(&:symbolize_keys)
+          data_from_response(@fetcher.call(@scenario_id, requirements))
         end
+    end
+
+    # Internal: Extracts query data from a response.
+    #
+    # Adds errors to @errors if the response was unsuccessful, and returns an
+    # empty hash.
+    #
+    # Returns the query data.
+    def data_from_response(response)
+      if response['errors']
+        @errors.push(*response['errors'])
+        return {}
+      end
+
+      response['gqueries'].symbolize_keys.transform_values(&:symbolize_keys)
     end
   end
 end
