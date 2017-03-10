@@ -1,65 +1,35 @@
 ---
-# Define a simple header component.
-- h3: A Header
+- h1: Title page
 
-# Two paragraphs which are shown only for a scenario where CO2 emissions are
-# greater than zero. Each paragraph contains a future(...) value which is a
-# query value from ETEngine.
-- if: future(total_co2_emissions) > 0
-  children:
-  - text: 1 - Electricity production costs future(costs_of_used_electricity).
-  - text:
-      In your scenario, wind turbines and solar arrays are producing
-      future(electricity_produced_from_wind_and_solar) of electricity, while
-      natural gas is being used to create
-      future(electricity_produced_from_natural_gas). Quis inventore nihil
-      molestiae perspiciatis ut nam. Dolorum
+- text: Author = you
+- text: Date = today
+- text: Scenario = ID current_id
+- text: This report was automagically created by the Energy Transition Model
+
+- h1: Introduction
+- h2: How to read this report
+- text: 
+        Each chapter in this report highlights an important result such as CO_2
+        emissions.
+- h2: Index
+- text: itemised list of chapters
+
+
+# Chapter about energy
+- h1: Energy use
+
+
+# Chapter about CO2
+- h1: CO2 emissions
 
 # A single text component (paragraph) which is only shown if the scenario has
 # no CO2 emissions.
-- if: future(total_co2_emissions) <= 0
-  text: You created a scenario with no CO2 emissions. Nice!
+- if: future(co2_reduction_percentage) > 95.0
+  text: You created a scenario with almost no CO2 emissions!
 
-# A text component which has no translations. The text will appear the same
-# regardless of the visitors language setting.
-- text:
-    This component contains text, but does not have translations. For shame!
-    Sit commodi natus molestias amet. Dolorem rerum ad fugiat. Minus dolore
-    laboriosam quis distinctio aspernatur. Et aut doloribus eos sit.
-
-# A paragraph with separate EN and NL texts.
-- text:
-    en:
-      (EN) This component also contains text, but has separate translations for
-      EN and NL locales! Praesentium rerum est optio porro adipisci. Nisi
-      debitis asperiores rem. Quae dicta deserunt odit ut repudiandae.
-      Perferendis corrupti delectus et quasi odio animi.
-    nl:
-      (NL) This component also contains text, but has separate translations for
-      EN and NL locales! Praesentium rerum est optio porro adipisci. Nisi
-      debitis asperiores rem. Quae dicta deserunt odit ut repudiandae.
-      Perferendis corrupti delectus et quasi odio animi.
-
-# A chart component. Chart 57 is "useful demand in residences". Intentio is to
-# change this from a numeric ID to the human-readable key.
-#
-# Note that the chart has a "text" child. This is shown as a caption beneath
-# the chart.
-- chart: 57
+- if: future(co2_reduction_percentage) > 10
   children:
-    - text:
-        en:
-          This is a chart which shows some interesting information about your
-          scenario. Quis inventore nihil molestiae perspiciatis ut nam. Dolorum
-          nihil animi repellendus et. Asperiores nihil voluptas dul ut omnis
-          perferendis. Dolorem dolorem maxime praesentium laboriosam dolor
-          aperiam.
-        nl:
-          This is a chart which shows some interesting information about your
-          scenario. Quis inventore nihil molestiae perspiciatis ut nam. Dolorum
-          nihil animi repellendus et. Asperiores nihil voluptas dul ut omnis
-          perferendis. Dolorem dolorem maxime praesentium laboriosam dolor
-          aperiam.
+  - text: You reduced CO2 emissions with future(co2_reduction_percentage)%.
 
 # Another chart. Why not?
 - chart: 46
@@ -78,5 +48,85 @@
           perferendis. Dolorem dolorem maxime praesentium laboriosam dolor
           aperiam.
 
-- text: 2 - QRS
-- text: 2 - TUV
+# Chapter about Energy imports
+- h1: Energy import and export
+
+# Chapter about blackouts
+- h1: Blackouts and loss of load expectation
+
+- text: 
+      Not all technologies produce power equally reliably due to unpredictability 
+      and maintenance requirements. Furthermore, the electricity demand is not 
+      perfectly predictable. This means you always need to have some overcapacity 
+      to ensure security of supply. 
+
+- text:
+      You need to have enough reliable production capacity. Plants or storage facilities
+      that can be turned on when needed are reliable, solar panels and wind turbines
+      that rely on the weather are not. 
+
+- chart: 111
+  children:
+    - text:
+        en:
+          This chart shows the peak power demand as well as available production 
+          capacity. It shows what shares of available production capacity are 
+          reliable and unreliable. Things such as wind turbines and solar PV 
+          panels are examples of unreliable power production. If the peak power 
+          demand is higher than the reliable capacity the loss of load probability
+           will increase.
+
+
+        nl:
+          Deze grafiek toont de piekvraag naar elektriciteit en ook het beschikbare 
+          stroomproductievermogen. Je kunt zien welk deel hiervan altijd beschikbaar
+           is en welk niet. Windmolens en zonnepanelen zijn alleen beschikbaar 
+           als het weer dat toelaat en daarom niet helemaal betrouwbaar. 
+           As de piekvraag hoger is dan het betrouwbare vermogen, neemt de kans 
+           op onvermogen toe.
+
+# If the number of excess events is larger than zero, talk about flexibility
+- if: future(dashboard_total_number_of_excess_events) > 0
+  children:
+
+  # Chapter about excess (depending on if-statement above)
+  - h1: Excess electricity production and flexibility
+
+- h1: Costs and employment
+
+- h2: Cost of the energy system
+
+- text: 1 - Electricity production costs future(costs_of_used_electricity).
+- text:
+      In your scenario, wind turbines and solar arrays are producing
+      future(electricity_produced_from_wind_and_solar) of electricity, while
+      natural gas is being used to create
+      future(electricity_produced_from_natural_gas). Quis inventore nihil
+      molestiae perspiciatis ut nam. Dolorum
+
+- h2: Profitability of power plants
+
+- h1: Bio-footprint and renewability
+
+
+# A paragraph with separate EN and NL texts.
+- text:
+    en:
+      (EN) This component also contains text, but has separate translations for
+      EN and NL locales!
+    nl:
+      (NL) This component also contains text, but has separate translations for
+      EN and NL locales!
+
+
+- h1: Implications of this scenario
+
+- text: 
+    Your scenario spans future(scenario_duration) years. As a result of the choices 
+    you made, we must build the following list of items on average every year
+
+- text: future(number_of_wind_turbines_per_year) windturbines
+
+- h1: APPENDIX A Slider settings
+
+- text: This appendix lists all the sliders which have been moved from their default value.
