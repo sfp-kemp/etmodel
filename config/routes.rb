@@ -40,8 +40,7 @@ Etm::Application.routes.draw do
     get 'map', to: 'pages#map', as: :map
     post 'clear_cache' => 'pages#clear_cache', as: :clear_cache
 
-    resources :predictions,
-              :sidebar_items,
+    resources :sidebar_items,
               :output_elements,
               :output_element_series,
               :general_user_notifications,
@@ -106,12 +105,6 @@ Etm::Application.routes.draw do
   end
 
   get '/input_elements/by_slide' => 'input_elements#by_slide'
-
-  resources :predictions, only: [:index, :show] do
-    member do
-      get :share
-    end
-  end
 
   match '/ete(/*url)',       to: 'api_proxy#default', via: :all
   match '/ete_proxy(/*url)', to: 'api_proxy#default', via: :all
