@@ -8,18 +8,24 @@
         = t 'output_elements.tables.carbon_balance.available'
         (MT)
       %th
-        = t 'output_elements.tables.carbon_balance.used'
+        = t 'output_elements.tables.carbon_balance.used_for_synthetic_kerosene'
+        (MT)
+      %th
+        = t 'output_elements.tables.carbon_balance.used_for_synthetic_methane'
         (MT)
   %tbody
     %tr
       %th= t "output_elements.tables.carbon_balance.point_source_co_steel"
       %td{:data => {:gquery => "point_source_co_available", :graph => :future}}
-      %td{:data => {:gquery => "point_source_co_used", :graph => :future}}
+      %td{:data => {:gquery => "point_source_co_used_for_synthetic_kerosene", :graph => :future}}
+      %td= t "output_elements.tables.carbon_balance.not_applicable"
     %tr
       %th= t "output_elements.tables.carbon_balance.point_source_co2_steel"
       %td{:data => {:gquery => "point_source_co2_available", :graph => :future}}
-      %td{:data => {:gquery => "point_source_co2_used", :graph => :future}}
+      %td{:data => {:gquery => "point_source_co2_used_for_synthetic_kerosene", :graph => :future}}
+      %td{:data => {:gquery => "point_source_co2_used_for_synthetic_methane", :graph => :future}}
     %tr
       %th= t "output_elements.tables.flexibility.carbon_balance.direct_air_capture"
       %td= t "output_elements.tables.carbon_balance.infinite"
-      %td{:data => {:gquery => "direct_air_capture_co2_used", :graph => :future}}
+      %td{:data => {:gquery => "direct_air_capture_co2_used_for_synthetic_kerosene", :graph => :future}}
+      %td{:data => {:gquery => "direct_air_capture_co2_used_for_synthetic_methane", :graph => :future}}
