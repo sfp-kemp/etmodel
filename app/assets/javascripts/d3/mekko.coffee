@@ -311,8 +311,9 @@ D3.mekko =
     arrangeLabels: =>
       # Defines the left- and right-most edges of the chart. Labels will not be
       # permitted outside these limits
-      maxLeft  = @svg[0][0].getBoundingClientRect().left + 20 # + 20 for axis.
-      maxRight = @svg[0][0].getBoundingClientRect().right
+      container = @svg.node().parentNode
+      maxLeft   = container.getBoundingClientRect().left + 20 # + 20 for axis.
+      maxRight  = container.getBoundingClientRect().right
 
       # Assumes that selectAll returns labels in the order they appear in the
       # DOM (i.e. left-to-right).
