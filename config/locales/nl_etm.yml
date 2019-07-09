@@ -13,6 +13,8 @@ nl:
     flexibility: "Flexibiliteit"
     data: "Resultaten"
     overview: "Overzicht"
+    save_scenario: Scenario Opslaan
+
 
   # ----------- Header ----------- #
   reset: "Reset alle schuifjes naar de beginwaarden van dit scenario."

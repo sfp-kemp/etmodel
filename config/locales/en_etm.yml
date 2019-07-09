@@ -13,6 +13,7 @@ en:
     flexibility: "Flexibility"
     data: "Results"
     overview: "Overview"
+    save_scenario: Save Scenario
 
   # ----------- Header ----------- #
   reset: "Reset all the sliders to the default values of this scenario."

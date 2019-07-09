@@ -171,3 +171,6 @@ en:
     wind:
       short_name: "Wind turbines"
       long_name: "Wind power costs"
+    file:
+      short_name: "File"
+      long_name: "File"
