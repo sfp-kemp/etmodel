@@ -1,0 +1,808 @@
+---
+- id: 19
+  key: fce_coal
+  content_en: "<img src=\"/assets/fce/coal.png\" style=\"float:right;margin-left:20px\"/>\r\n<h2>The
+    coal-to-electricity chain</h2>\r\n\r\n<p>Coal has been a key factor in the industrial
+    revolution that shaped our Western societies from 1700 on. It is still an important
+    and secure source of energy with proven exploitable reserves amounting to 150
+    years at current consumption rate. </p><p>On the other hand, coal is also the
+    fossil fuel with the highest carbon content and generates more CO<sub>2</sub>
+    per unit of energy than other fossil fuels. Over 90% of the greenhouse gas emissions
+    for coal are emitted in the combustion phase, the remainder during pretreatment.</p>\r\n\r\n<p>Coal
+    is mined in both opencast and underground mines. Associated mine gas (rich in
+    methane, a strong greenhouse gas) is partly utilized in mining processes, but
+    is also partly vented to the atmosphere.<br/>Mined coal is upgraded, dried and
+    ground in the vicinity of the mine. The upgraded coal is transported to the power
+    station and combusted. Transportation is primarily carried out by large ships,
+    because of the large intercontinental distances covered and the large amount of
+    coal consumed per power station. \r\n</p>\r\n<p>What remains after combustion
+    is ashes and gypsum from flue gas desulphurization (if desulphurization is applied).
+    These are often reused as raw materials for construction. </p>\r\n\r\n<p>The greenhouse
+    gas emission figures for coal included in the ETM concern all processes mentioned
+    above from mining to combustion, except for emissions related to production of
+    utilized hardware, e.g. the power plant. </p>\r\n\r\n<img src=\"/assets/fce/coal2.png\"
+    style=\"float:left;margin-right:20px\"/>\r\n<h2>Other sustainability issues</h2>\r\n\r\n<p>Coal
+    not only contains more carbon per unit of energy, but also contains more sulfur,
+    nitrogen and heavy metals than other fossil fuels. Impacts of untreated flue gases
+    on environment and human health can be severe, as illustrated by impacts of acid
+    rain and winter smog in Europe and China. Emissions can be largely reduced, however,
+    with efficient gas cleaning equipment. Impact of remaining emissions on air quality
+    and the environment in general is limited at most. </p>\r\n\r\n<p>Without proper
+    precautionary measures mining coal can give severe and long-term local pollution
+    too, caused by a process called Acid Mine Drainage (AMD). In this process a sulphuric
+    acid solution is formed, which leaches heavy metals from the rock matrix of the
+    mine. The resulting heavy metals containing  solution destroys surface water ecosystems
+    and pollutes soil This process may continue for centuries.\r\n</p>\r\n\r\n<h2>Numbers
+    and Facts</h2>\r\n<p>The numbers and references used to quantify the fuel chain
+    emissions for coal can be found on our 'Reference Manager'. The <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>Fuel Chain Emissions documentation</a> can be downloaded there
+    (will open in a new tab).</p>"
+  content_nl: "<img src=\"/assets/fce/coal.png\" style=\"float:right;margin-left:20px\"/>\r\n<h2>De
+    keten voor kolen tot elektriciteit</h2>\r\n\r\n<p>Kolen hebben een sleutelrol
+    gespeeld in de industriële revolutie die vanaf het jaar 1700 de Westerse maatschappijen
+    gevormd heeft. Het is nog steeds een belangrijke en veilige energiebron waarvan
+    de bewezen voorraden optellen tot 150 jaar bij het huidig gebruiksniveau.</p><p>Daarnaast
+    bevatten kolen van alle fossiele brandstoffen de meeste koolstof waardoor de meeste
+    CO<sub>2</sub> geproduceerd wordt per eenheid energie. Meer dan 90% van de uitstoot
+    van broeikasgassen vindt plaats in de verbrandingsfase, de rest bij de ketenstappen
+    daarvoor.</p>\r\n<p>Kolen worden zowel uit open mijnen (dagbouw) als ondergrondse
+    mijnen gewonnen. Mijngas (vooral methaan, een sterk broeikasgas) dat vrijkomt
+    wordt deels gebruikt komt deels in de lucht terecht. <br/>De gewonnen kolen worden
+    verrijkt, gedroogd en vermalen in de buurt van de mijn. De verrijkte kolen gaan
+    op transport naar de kolencentrales en worden verbrand. <br/>Transport kan het
+    beste met grote schepen, omdat zulke grote afstanden overwonnen moeten worden
+    en zulke grote hoeveelheden nodig zijn per centrale.</p>\r\n<p>Na verbranding
+    blijft as en gips over van de ontzwaveling van het uitlaatgas (mits dat laatste
+    ook gebeurt). Beide producten worden in de bouw gebruikt.</p>\r\n\r\n<p>De broeikasgasemissies
+    die het ETM gebruikt omvatten alle processen die hierboven genoemd zijn, van de
+    mijn tot en met de verbranding. Emissies voor het bouwen van de centrale zijn
+    niet meegenomen.</p>\r\n\r\n<img src=\"/assets/fce/coal2.png\" style=\"float:left;margin-right:20px\"/>\r\n<h2>Overige
+    duurzaamheidsaspecten</h2>\r\n<p>Kolen bevatten niet alleen meer koolstof, maar
+    ook meer zwavel, stikstof en zware metalen dan andere fossiele brandstoffen. Als
+    het uitlaatgas niet gezuiverd wordt kan het de gezondheid en het milieu sterk
+    schaden. Denk aan zure regen en winter smog. De uitstoot van schadelijke stoffen
+    kan verlaagd worden door goede en efficiënte reinigingsmethoden. Daardoor is het
+    effect op de luchtkwaliteit over het algemeen beperkt.</p>\r\n\r\n<p>Zonder de
+    juiste veiligheidsmaatregelen kunnen kolenmijnen ook ernstige en langdurige schade
+    opleveren voor hun lokale omgeving. Dit is het gevolg van ‘Acid Mine Drainage’
+    (AMD). Hierbij komt zwavelzuur vrij waardoor zware metalen uit de bodem worden
+    vrijgemaakt. Als dit in het oppervlaktewater terecht komt vernietigd het daar
+    ecosystemen en vervuild het de bodem. Dit proces kan eeuwen door blijven gaan.
+    </p>\r\n\r\n<h2>Achterliggende documentatie</h2>\r\n<p>De getallen en referenties
+    die gebruikt zijn om de ketenemissies van aardolie te kwantificeren zijn te vinden
+    op onze 'Reference Manager'. De <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>documentatie van de ketenanalyse</a> kun je daar downloaden (opent
+    in een nieuwe tab).</p>"
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-05-15 07:55:12.000000000 Z
+    zone: &1 !ruby/object:ActiveSupport::TimeZone
+      name: Europe/Amsterdam
+    time: 2012-05-15 09:55:12.000000000 Z
+  title_en: 
+  title_nl: 
+  short_content_en: 
+  short_content_nl: 
+- id: 20
+  key: fce_naturalgas
+  content_en: "<h2>The natural gas-to-electricity chain</h2>\r\n\r\n<p>Natural gas
+    is the only fossil fuel of which global proven reserves are increasing, both due
+    to new discoveries of conventional reserves and due to new types of reserves,
+    e.g. shale gas. Current proven and exploitable reserves amount to 60 and 20 years
+    at current consumption level respectively.</p> \r\n\r\n<p>Raw natural gas is pretreated
+    and either liquefied into LNG and transported by tanker or transmitted by pipeline.</p>\r\n\r\n<p>Because
+    of a low carbon content and high efficiency in power production greenhouse gas
+    emissions per kWhe natural gas based electricity are 40% - 60% lower compared
+    with CO<sub>2</sub> emissions for coal based electricity. The percentages include
+    emissions for pretreatment and transportation of both fuels. Natural gas primarily
+    consists of methane, the fossil fuel with the lowest carbon content, and produces
+    40% less CO<sub>2</sub> per GJ of fuel compared to coal. Power generation based
+    on natural gas is 30% more efficient than coal-based power generation.</p>\r\n\r\n<p>The
+    advantages mentioned above are partly offset for LNG production, because of the
+    high energy demand for liquefaction. However, the preparation for liquefaction
+    also involves removal of unwanted gases, so LNG is richer in methane. More on
+    LNG can be found <a href='http://www.beg.utexas.edu/energyecon/lng/documents/misc/UH%20LNG%20FAQ.pdf'
+    target='blank'>here</a> . Long distance pipeline transmission also requires much
+    energy and may be associated with small leakages of methane. The latter occurs
+    in Russia especially. For both processes greenhouse gas emissions may amount to
+    25% compared with CO<sub>2</sub>-emissions for methane combustion.</p> \r\n\r\n<p>The
+    greenhouse gas emissions included in the ETM concern all processes mentioned above
+    from extraction to combustion, except for emissions related to production of utilized
+    hardware, e.g. the power plant. Interim storage of natural gas in e.g. reservoirs
+    or salt caverns and production of shale gas have not been considered.</p>\r\n\r\n<img
+    src=\"/assets/fce/natural_gas.png\" style=\"float:right;margin-left:15px;padding-bottom:15px\"/>\r\n\r\n<h2>Other
+    potential sustainability issues</h2>\r\n<p>Natural gas contains negligible amounts
+    of a polluting elements after conditioning. For combustion of natural gas normally
+    only NO<sub>x</sub> emissions are relevant. NO<sub>x</sub> emissions can be reduced
+    easily with simple technical measures, which is already standard policy requirement
+    for power plants in the EU.</p>\r\n\r\n<p>Raw gas conditioning may be associated
+    with surface water pollution if separated heavy metals and condensable hydrocarbons
+    are discharged on to surface water, e.g. at offshore conditioning installations.
+    Venting or flaring of separated aromatics and other condensable hydrocarbons at
+    \ conditioning plants may give air pollution and may significantly affect local
+    air quality. This also applies to unabated SO<sub>2</sub> emissions from conditioning
+    plants.</p>\r\n\r\n<p>All abovementioned types of pollution can be prevented with
+    adequate abatement technologies and management.</p>\r\n\r\n<h2>Numbers and Facts</h2>\r\n<p>The
+    numbers and references used to quantify the fuel chain emissions for natural gas
+    can be found on our 'Reference Manager'.  The <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>Fuel Chain Emissions documentation</a> can be downloaded there
+    (will open in a new tab).</p>"
+  content_nl: "<h2>De keten van aardgas tot elektriciteit</h2>\r\n<p>Aardgas is de
+    enige fossiel brandstof waarvan de bewezen voorraden toenemen. Dat komt door nieuwe
+    ontdekkingen van conventionele voorraden en doordat voorraden moeilijk winbaar
+    gas beschikbaar komen. De huidige bewezen en ontginbare voorraden zijn respectievelijk
+    genoeg voor 60 en 20 jaar bij het huidige gebruiksniveau.</p>\r\n\r\n<p>Ruw aardgas
+    wordt eerst gezuiverd en vervolgens ofwel vloeibaar gemaakt en als LNG per tanker
+    vervoerd ofwel via een pijpleiding vervoerd. </p>\r\n\r\n<p>Doordat aardgas vooral
+    uit methaan (CH<sub>4</sub>) bestaat – en dus weinig koolstof bevat - en de stroomproductie
+    zo efficiënt is, zijn de broeikasgasemissies voor stroom uit gas 40% - 60% lager
+    dan voor kolenstroom. Voor deze vergelijking zijn de emissies bij het zuiveren
+    en het transport van beide brandstoffen meegenomen. Bij de verbranding van aardgas
+    komt per GJ brandstof 40% minder CO<sub>2</sub> vrij dan bij kolenverbranding.
+    De stroomproductie uit aardgas is ook nog eens 30% efficiënter dan uit kolen.</p>\r\n\r\n<p>Deze
+    voordelen worden deels tenietgedaan door LNG productie, doordat er veel energie
+    nodig is om aardgas vloeibaar te maken. Aan de andere kant worden voordat aardgas
+    vloeibaar gemaakt bepaalde ongewenste gassen verwijderd, zodat LNG rijker is aan
+    methaan dan aardgas. Meer informatie over LNG kun je <a href='http://www.beg.utexas.edu/energyecon/lng/documents/misc/UH%20LNG%20FAQ.pdf'
+    target='blank'>hier</a> vinden (in het Engels). Ook bij transport via lange pijpleidingen
+    is veel energie nodig en daarnaast kan er wat lekkage van methaan optreden. Dit
+    is met name in Rusland het geval. De uitstoot van broeikasgassen voor beide processen
+    kan wel 25% bedragen van de CO<sub>2</sub> emissie die bij verbranding van methaan
+    vrijkomt.</p>\r\n\r\n<p>De broeikasgassen die in het ETM zijn meegenomen, komen
+    vrij in al de processen die hierboven beschreven zijn. Emissies als gevolg van
+    het bouwen van de centrales bijvoorbeeld, zijn niet meegenomen. Ook de tussentijdse
+    opslag van aardgas en de productie van schaliegas zijn buiten beschouwing gebleven.</p>\r\n\r\n<img
+    src=\"/assets/fce/natural_gas.png\" style=\"float:right;margin-left:15px;padding-bottom:15px\"/>\r\n\r\n<h2>Andere
+    mogelijke problemen voor het milieu</h2>\r\n<p>Aardgas bevat na zuivering bijna
+    geen vervuilende stoffen. Bij verbranding is normaal gesproken alleen NO<sub>x</sub>
+    uitstoot van belang. Deze uitstoot kan gemakkelijk voorkomen worden met technische
+    maatregelen. Deze zijn al verplicht voor centrales in de EU.</p>\r\n\r\n<p>Het
+    zuiveren van ruw aardgas kan leiden tot vervuiling van oppervlaktewater, als afgescheiden
+    zware metalen of vloeibare koolwaterstoffen geloosd worden. Dit gebeurt bijvoorbeeld
+    soms bij zuiveringsinstallaties op zee. Het laten ontsnappen of affakkelen van
+    afgescheiden aromaten en andere vloeibare koolwaterstoffen leidt soms tot sterke
+    luchtvervuiling. Soms komt ook SO<sub>2</sub> vrij.</p>\r\n\r\n<p>Alle soorten
+    vervuiling kunnen voorkomen worden door adequate maatregelen te nemen.</p>\r\n\r\n<h2>Achterliggende
+    documentatie</h2>\r\n<p>De getallen en referenties die gebruikt zijn om de ketenemissies
+    van aardgas te kwantificeren zijn te vinden op onze 'Reference Manager'. De <a
+    href='http://refman.et-model.com/publications/1623' target='blank'>documentatie
+    van de ketenanalyse</a> kun je daar downloaden (opent in een nieuwe tab).</p>"
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2015-12-11 08:53:59.000000000 Z
+    zone: *1
+    time: 2015-12-11 09:53:59.000000000 Z
+  title_en: ''
+  title_nl: ''
+  short_content_en: ''
+  short_content_nl: ''
+- id: 21
+  key: fce_uranium
+  content_en: "<h2>The nuclear fuel chain</h2>\r\n<p>Nuclear power plants primarily
+    use uranium as a fuel, and several steps are needed to make natural uranium into
+    a suitable fuel. Natural uranium contains 99.3% U-238, and only 0.7% of the isotope
+    that is relevant for nuclear energy: U-235. Since reactors require 4-5% U-235
+    content, natural uranium must be enriched, requiring energy and thus leading to
+    CO<sub>2</sub> emissions. However, due to the high energy density of uranium,
+    total CO<sub>2</sub> emissions are still low compared to fossil fuels.</p>\r\n\r\n<p>First
+    uranium must be mined, either mechanically, or by leaching it from the ground
+    with chemical solutions. After mining, the natural uranium (U<sub>3</sub>O<sub>8</sub>)
+    is converted to a gaseous form (UF<sub>6</sub>), which is the input for enrichment
+    plants. In Western Europe, uranium is enriched by highly efficient centrifuges,
+    which force the heavier U-238 away from the U-235. Subsequently, the uranium is
+    converted to solid form (UO<sub>2</sub>) and fuel rods for the power plant are
+    produced. After use, spent fuel rods are reprocessed, separating the uranium and
+    plutonium from the other materials (which are considered as waste, and need to
+    be stored).</p>\r\n\r\n<p>Energy used during construction and decommissioning
+    of the power plant, and construction of the waste facilities is not considered
+    here. Cooling energy during temporary waste storage is included, as is transportation.</p>\r\n\r\n<h2>Other
+    relevant aspects</h2>\r\n<p>Nuclear power plants generate high-level radioactive
+    waste, which remains dangerous for thousands of years. The waste is now temporarily
+    stored near nuclear facilities, but no permanent storage facility has yet been
+    completed anywhere.</p>\r\n\r\n<p>In addition, nuclear energy is associated with
+    risk of nuclear incidents. Severe incidents do not occur often, but may have serious
+    impacts on environment and human health, as the disasters in Chernobyl and Fukushima
+    have illustrated. The plutonium generated during plant operation poses a proliferation
+    risk, as it can be used in nuclear weapons.</p>\r\n\r\n<p>Like all mining operations,
+    uranium mining is associated with negative environmental impacts. Mechanic mining
+    methods (underground and open-pit mining) create accident risks and radiation
+    exposure for miners. In addition, large quantities of waste rock (tailings) are
+    produced, which emit low levels of radiation and contain toxic substances. In-situ
+    leaching poses fewer risks for miners, but may cause groundwater pollution with
+    acids found in the leaching fluids.</p>\r\n\r\n<p>Finally, large quantities of
+    depleted uranium are generated during the enrichment process. These low-radioactive
+    materials are now temporarily stored (e.g. near enrichment facilities), but it
+    is unclear where to leave them in the long term.</p>\r\n\r\n<h2>Numbers and Facts</h2>\r\n<p>The
+    numbers and references used to quantify the fuel chain emissions for uranium can
+    be found on our 'Reference Manager'. The <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>Fuel Chain Emissions documentation</a> can be downloaded there
+    (will open in a new tab).</p>"
+  content_nl: "<h2>De keten voor kernbrandstof</h2>\r\n<p>Kerncentrales gebruiken
+    voornamelijk uranium als brandstof. Om de brandstof geschikt te maken zijn verschillend
+    stappen nodig. Natuurlijk uranium bevat 99,3% U-238 en slechts 0,7% U-235, het
+    isotoop dat relevant is voor kernsplijting. Aangezien de reactors een U-235 concentratie
+    van ongeveer 4 - 5% nodig hebben, moet het uranium verrijkt worden. Daar is energie
+    voor nodig en dus wordt er CO<sub>2</sub> uitgestoten. Omdat de energiedichtheid
+    van de kernbrandstof zo hoog is, blijft de totale CO2 uitstoot nog relatief beperkt
+    in vergelijking met fossiele brandstoffen.</p>\r\n\r\n<p>Eerst moet het uranium
+    gewonnen worden, hetzij mechanisch, hetzij door het chemisch op te lossen. Na
+    het winnen, moet het natuurlijk voorkomende U<sub>3</sub>O<sub>8</sub> omgezet
+    worden tot in een gas (UF<sub>6</sub>). Dat gas gaat de centrifuges in voor verrijking.
+    In West Europa gebeurt de verrijking met zeer efficiënte centrifuges, die het
+    zwaardere U-238 scheiden van U-235. Vervolgens wordt alles omgezet in UO<sub>2</sub>,
+    een vaste stof, waarmee de brandstofstaven worden gemaakt. Na gebruik, kunnen
+    de staven opnieuw opgewerkt worden, waarbij het uranium en plutonium van overige
+    materialen worden gescheiden (afval dat moet worden opgeslagen).</p>\r\n\r\n<p>De
+    energie die nodig is voor het bouwen en afbreken van de centrale en de afvalverwerkingsfaciliteiten,
+    is niet meegenomen. De koelingsenergie voor tijdelijke opslag is wel meegenomen,
+    net als transport.</p>\r\n\r\n<h2>Andere relevante aspecten</h2>\r\n<p>Kerncentrales
+    produceren hoogradioactief afval, wat duizenden jaren gevaarlijk blijft. Het afval
+    wordt nu tijdelijk opgeslagen, maar er is nog nergens een permanente opslag gerealiseerd.</p>\r\n\r\n<p>Verder
+    bestaat er het risico op ongelukken. Ernstige ongelukken komen zelden voor, maar
+    kunnen ernstige gevolgen hebben voor het milieu en de volksgezondheid. De rampen
+    bij Tsjernobyl en Fukushima hebben dat duidelijk gemaakt. Het plutonium dat geproduceerd
+    wordt kan gebruikt worden om kernwapens te maken en levert dus een proliferatierisico
+    op.</p>\r\n\r\n<p>Net als bij alle mijnen, leveren uraniummijnen milieuschade
+    op. Bij mechanische mijnbouw (zowel ondergronds als dagbouw) bestaat een kans
+    op ongelukken en stralingsgevaar voor de mijnwerkers. Daarnaast komen grote hoeveelheden
+    steenafval vrij, die laag-radioactief en giftig zijn (‘tailings’).<br/>\r\nHet
+    ‘in situ’ oplossen kan grondwaterverontreiniging door zuren uit de oplosmiddelen
+    met zich meebrengen.</p>\r\n\r\n<p>Tot slot worden er nog grote hoeveelheden verarmd
+    uranium geproduceerd bij het verrijkingsproces. Deze laag-radioactieve materialen
+    worden nu tijdelijk opgeslagen, maar het is onduidelijk waar ze voor de lange
+    termijn terecht kunnen.</p>\r\n\r\n<h2>Achterliggende documentatie</h2>\r\n<p>De
+    getallen en referenties die gebruikt zijn om de ketenemissies van uranium te kwantificeren
+    zijn te vinden op onze 'Reference Manager'. De <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>documentatie van de ketenanalyse</a> kun je daar downloaden (opent
+    in een nieuwe tab).</p>"
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-05-15 07:56:59.000000000 Z
+    zone: *1
+    time: 2012-05-15 09:56:59.000000000 Z
+  title_en: 
+  title_nl: 
+  short_content_en: 
+  short_content_nl: 
+- id: 22
+  key: fce_biomass
+  content_en: "<h2>Chain emissions of wood pellets</h2>\r\n<p>In recent decades wood
+    pellets have become a conventional fuel for solid fuel fired power plants, industrial
+    boilers and boilers for heating in housing and has become a commodity traded globally.
+    </br>\r\nDue to EU policy induced requirement for increased use of renewable energy
+    a significant amount of pellets is utilized in the Netherlands too. The applied
+    pellets - 1 Mtonne per year - are utilized as a fuel in coal fired power stations,
+    substituting coal. Experiences at Avedore II power station illustrate that substitution
+    of up to 80% of coal is technically feasible.</p>\r\n\r\n<img src=\"/assets/fce/wood_pellets.png\"
+    style=\"float:left;margin-right:15px;padding-bottom:15px\"/>\r\n\r\n<p>Wood pellets
+    are produced by subsequently chipping, drying, and milling wood very finely. For
+    provision of the heat utilized in drying, part of the wood is combusted. The finely
+    milled wood is pressed through a mould at high pressure. The friction heat softens
+    the wood. The soft wood is cut into pellets, which are screened for size, cooled
+    and subsequently stored. </p>\r\n\r\n<p>The pellets have a high hardness, which
+    makes it possible to pulverize them to the particle size required by the burners
+    in a coal fired power plant. </p>\r\n\r\n<p>Pellet availability is likely to be
+    limited. Dutch wood resources for pellet production are limited to approximately
+    2 Mtonnes per year. Imports are probably limited to approximately 10% of total
+    Dutch energy consumption in 2050.  </p>\r\n\r\n<img src=\"/assets/fce/wood_pellets2.png\"
+    style=\"float:right;margin-left:15px;padding-bottom:15px\"/>\r\n\r\n<p>Wood pellets
+    supplied to coal fired power stations are not completely climate neutral. Transport
+    of pellets is associated with limited emissions of greenhouse gases. In commercial
+    cultivation, use of fertilizers may give additional greenhouse gas emissions and
+    high electricity use for pellet milling somewhat reduces the emission reduction.
+    But on the whole substitution of coal by wood pellets would give a reduction in
+    greenhouse gas emissions of over 90%.</p>\r\n\r\n<p>This reduction percentage
+    does not include greenhouse gas emissions related to so-called indirect land use
+    change (ILUC). Indirect land use change resulting in degradation of forests or
+    other natural landscapes with high amounts of vegetation would result in greenhouse
+    gas emissions of such extent, that the direct reduction in greenhouse gases from
+    coal substitution would be completely reversed. </p>\r\n\r\n<p>Indirect land use
+    change and related greenhouse gas emissions could occur when: \r\n<ul>\r\n<li>wood
+    normally supplied to paper industry, wood products industry or wood panel industry
+    is redirected to pellet production and energy sector – requiring the other industries
+    to get their raw material from somewhere else. </li>\r\n<li>wood for pellet production
+    is cultivated on arable land – requiring agriculture to shift to new areas.</li>\r\n</ul></p>\r\n\r\n<h2>Numbers
+    and Facts</h2>\r\n<p>The numbers and references used to quantify the fuel chain
+    emissions for woody biomass can be found on our 'Reference Manager'. The <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>Fuel Chain Emissions documentation</a> can be downloaded there
+    (will open in a new tab).</p>"
+  content_nl: "<h2>De ketenemissies van houtpellets</h2>\r\n<p>In de afgelopen decennia
+    zijn houtpellets een standaardbrandstof voor elektriciteitscentrales die vaste
+    stoffen verbranden, industriële boilers en huishoudelijke boilers geworden en
+    worden pellets over de hele wereld als commodity verhandeld.</br>\r\nIn Nederland
+    wordt ook een significante hoeveelheid pellets gebruikt dankzij de door de EU
+    wettelijk verplichte toename van de hoeveelheid duurzaam opgewekte energie. Deze
+    pellets – 1 Mton per jaar – worden gebruikt als brandstof in kolencentrales als
+    vervanger van kolen. Ervaringen met bijstook in kolencentrale Avedore II (Denemarken)
+    tonen aan dat tot 80% van de kolen vervangen kunnen worden door houtpellets. </p>\r\n\r\n<img
+    src=\"/assets/fce/wood_pellets.png\" style=\"float:left;margin-right:15px;padding-bottom:15px\"/>\r\n\r\n\r\n<p>Houtpellets
+    worden gemaakt door hout te versnipperen, te drogen en het daarna zeer fijn te
+    malen. Om de warmte te produceren die nodig is om het hout te drogen wordt een
+    deel van het hout verbrand. Het fijngemalen hout wordt op hoge druk door een mal
+    geperst. De wrijvingswarmte maakt het hout zacht. Het zachte hout wordt daarna
+    tot pellets gesneden, op formaat gecontroleerd, gekoeld en opgeslagen. </p>\r\n\r\n<p>Omdat
+    de pellets zeer hard zijn is het mogelijk ze te vermalen tot de juiste grootte
+    voor de branders in een kolencentrale. </p>\r\n\r\n<p>De beschikbaarheid van pellets
+    is waarschijnlijk beperkt. Nederlandse houtvoorraden voor pelletproductie bedragen
+    slechts 2 Mton per jaar. Door import kan waarschijnlijk hoogstens ongeveer 10%
+    van de totale Nederlandse energievraag ingevuld worden. </p>\r\n\r\n<img src=\"/assets/fce/wood_pellets2.png\"
+    style=\"float:right;margin-left:15px;padding-bottom:15px\"/>\r\n\r\n\r\n<p>Houtpellets
+    die aan kolencentrales worden geleverd zijn niet compleet klimaatneutraal. Het
+    transport van pellets levert een kleine uitstoot van broeikasgassen. Het gebruik
+    van (kunst)mest bij commerciële teelt kan tot extra uitstoot leiden en hoog elektriciteitsgebruik
+    voor het malen van de pellets doet de vermindering van de uitstoot iets teniet.
+    Over het geheel genomen zal de vervanging van kolen door houtpellets de uitstoot
+    van broeikasgassen echter wel met meer dan 90% verlagen. </p>\r\n\r\n<p>In deze
+    afname zijn de broeikasgasemissies gerelateerd aan zogenaamde indirecte veranderingen
+    in landgebruik (ILUC) niet verdisconteerd. Indirecte veranderingen in landgebruik
+    die leiden tot degradatie van bossen of andere natuurlijke landschappen met veel
+    vegetatie zouden resulteren in broeikasgasemissies van een dergelijke omvang dat
+    de directe verlaging in broeikasgassen door bijstook in kolencentrales compleet
+    teniet zou worden gedaan. </p>\r\n\r\n<p>Indirecte veranderingen in landgebruik
+    kunnen optreden door:\r\n<ul>\r\n<li>Hout dat normaal gebruikt zou worden voor
+    productie van papier, houtproducten of houtpanelen zou kunnen worden gebruikt
+    in de productie van houtpellets voor de energiesector, waardoor deze andere industrieën
+    hun grondstoffen van elders moeten betrekken.</li>\r\n<li>Hout voor pelletproductie
+    zou op landbouwgrond kunnen plaatsvinden, waardoor de landbouw naar andere plekken
+    moet verhuizen.</li>\r\n</ul></p>\r\n\r\n<h2>Achterliggende documentatie</h2>\r\n<p>De
+    getallen en referenties die gebruikt zijn om de ketenemissies van houtige biomassa
+    te kwantificeren zijn te vinden op onze 'Reference Manager'. De <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>documentatie van de ketenanalyse</a> kun je daar downloaden (opent
+    in een nieuwe tab).</p>"
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-05-15 07:57:37.000000000 Z
+    zone: *1
+    time: 2012-05-15 09:57:37.000000000 Z
+  title_en: 
+  title_nl: 
+  short_content_en: 
+  short_content_nl: 
+- id: 23
+  key: fce_greengas
+  content_en: "<h2>Chain emissions for green gas</h2> \r\n<p>The term ‘Green gas’
+    refers to methane, as a component of biogas. \r\nBiogas is produced by anaerobic
+    digestion of biomass – a microbiologic process in which micro-organisms convert
+    digestible biomass into a gas, consisting of methane and CO<sub>2</sub>. The remaining
+    biomass – called digestate – can be applied as a green fertilizer. The reaction
+    takes place in lukewarm water. For heating the water, part of the biogas is combusted.
+    </p>\r\n\r\n<img src=\"/assets/fce/green_gas.png\" style=\"float:left;margin-right:15px;padding-bottom:30px\"/>\r\n\r\n<p>For
+    the ETM it is assumed that the digested biomass is a mixture of animal manure
+    and cultivated maize, a common combination of raw materials in the Netherlands
+    and surrounding countries. The maize is ensilaged after harvest to guarantee whole
+    year availability of maize for biogas production. The used manure would normally
+    have been stored in a manure silo or manure basement, in which it would be digested
+    spontaneously which produces methane. The methane would in that case be emitted
+    to the atmosphere, giving significant greenhouse gas emissions. </p>\r\n\r\n<p>Biogas
+    production is mainly a local and small scale activity, quite different by nature
+    compared with the large capacity power plant considered in the ETM. \r\nIn order
+    to be able to utilize biogas in centralized large scale power plants the gas will
+    have to be injected into the national gas grid and transported via this grid to
+    a large scale power station. \r\nBut for injection into the gas grid the biogas
+    will have to have a composition and pressure similar to that of the natural gas
+    normally transported via this grid. So the biogas is purified and methane is isolated
+    (by scrubbing under pressure with water), dried and compressed. The electricity
+    required for these processes is extracted from the power grid. </p>\r\n\r\n<p>Considering
+    the whole chain, ‘green gas’ has a far lower (± 85% lower) greenhouse gas chain
+    emissions than fossil natural gas, but is not a completely climate neutral fuel.
+    Use of nitrogen fertilizer in maize cultivation and use of electricity for biogas
+    pretreatment are associated with significant greenhouse gas emissions totaling
+    approximately 45% of the greenhouse gas emissions related to natural gas use.
+    However, the avoidance of methane emissions from manure storage largely compensates
+    these chain emissions. </p>\r\n\r\n<p>The maximum amount of green gas that can
+    be produced in the Netherlands is limited to approximately 40 PJ per year because
+    of a limited amount of manure and limited availability of land for maize cultivation
+    for biogas production. </p>\r\n\r\n<h2>Numbers and Facts</h2>\r\n<p>The numbers
+    and references used to quantify the fuel chain emissions for green gas can be
+    found on our 'Reference Manager'. The <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>Fuel Chain Emissions documentation</a> can be downloaded there
+    (will open in a new tab).</p>"
+  content_nl: "<h2>Ketenemissies bij groengas</h2>\r\n<p>De term “groengas” verwijst
+    naar de methaanfractie van biogas.\r\nBiogas wordt geproduceerd door anaerobe
+    vergisting van biomassa – een microbiologisch proces waarin micro-organismen verteerbare
+    biomassa omzetten in een gas, bestaande uit methaan en CO<sub>2</sub>. De overgebleven
+    biomassa – digestaat genaamd – kan worden gebruikt als organische meststof. De
+    reactie vindt plaats in lauw water, om het water te verhitten wordt een deel van
+    het biogas verbrand. </p>\r\n\r\n<img src=\"/assets/fce/green_gas.png\" style=\"float:left;margin-right:15px;padding-bottom:30px\"/>\r\n\r\n<p>Als
+    grondstoffen voor biogas wordt in het ETM uitgegaan van een mengsel van dierlijke
+    mest en geteelde snijmaïs, een in Nederland veel voorkomende combinatie van grondstoffen.
+    De snijmaïs wordt ingekuild na de oogst, om gedurende het jaar een continu aanbod
+    van maïs te hebben. De gebruikte mest zou anders in een mestsilo of -kelder zijn
+    opgeslagen waar het spontaan zou vergisten en methaan zou produceren. De geproduceerde
+    methaan zou in dat geval naar de atmosfeer worden uitgestoten en tot een flinke
+    emissie aan broeikasgassen leiden. </p>\r\n\r\n<p>Biogasproductie is voornamelijk
+    een lokale activiteit op kleine schaal, heel anders dan de grote centrales zoals
+    die in het ETM zijn opgenomen. Om het gas te kunnen gebruiken in centrale elektriciteitscentrales
+    moet het gas geïnjecteerd worden op het nationale gasnet om het op deze manier
+    naar deze centrales te vervoeren. Om het gas te kunnen injecteren moet het echter
+    een samenstelling en druk hebben vergelijkbaar met het aardgas dat normaal via
+    het gasnet wordt vervoerd. Het biogas wordt daarom gezuiverd en het methaan wordt
+    geïsoleerd (doormiddel van onder druk wassen met water), gedroogd en gecomprimeerd.
+    De elektriciteit die daarvoor nodig is wordt van het elektriciteitsnet gehaald.
+    </p>\r\n\r\n<p>Over de hele keten bekeken heeft groengas een aanzienlijk lagere
+    uitstoot (± 85% lager) van broeikasgassen dan fossiel aardgas, maar het is geen
+    compleet klimaatneutrale brandstof. Het gebruik van stikstofkunstmest in de maïsteelt
+    en elektriciteitsgebruik bij het behandelen van biogas resulteren in een significante
+    emissie van broeikasgassen. Deze bedraagt -  uitgedrukt ten opzichte van de emissies
+    in de aardgasketen - ongeveer 45% van de broeikasgasemissie gerelateerd aan het
+    gebruik van aardgas. Het voorkomen van de methaanuitstoot uit de uitgespaarde
+    conventionele mestopslag compenseert deze emissies echter grotendeels. </p>\r\n\r\n<p>De
+    maximale productie aan groengas in Nederland is ca. 40 PJ per jaar, vanwege het
+    begrensde aanbod aan mest en de beperkte beschikbaarheid van landbouwgrond voor
+    teelt van snijmaïs voor biogasproductie.</p>\r\n\r\n<h2>Achterliggende documentatie</h2>\r\n<p>De
+    getallen en referenties die gebruikt zijn om de ketenemissies van groengas te
+    kwantificeren zijn te vinden op onze 'Reference Manager'. De <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>documentatie van de ketenanalyse</a> kun je daar downloaden (opent
+    in een nieuwe tab).</p>"
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-05-15 07:55:24.000000000 Z
+    zone: *1
+    time: 2012-05-15 09:55:24.000000000 Z
+  title_en: 
+  title_nl: 
+  short_content_en: 
+  short_content_nl: 
+- id: 25
+  key: fce_oil
+  content_en: "<img src=\"/assets/fce/oil1.png\" style=\"float:right;margin-left:20px\"/>\r\n<h2>Mineral
+    oil as a raw material</h2>\r\n\r\n<p>Crude oil production periodically suffers
+    blows to its public image as a result of spectacular environmental disasters,
+    violations of human rights or corruption. Nevertheless, the global economy is
+    forecasted to need oil for quite a while longer. In the Netherlands about half
+    of industrial demand and almost all energy demand in transport is supplied by
+    oil products.\r\n</p>\r\n<p>Developed countries rarely use oil to produce electricity,
+    choosing instead to refine it and make fuels for transportation and other products.
+    These products in turn may serve as the raw materials for chemical industry and
+    or be used to make fertilizer or food additives. Some people claim that oil is
+    far too valuable a resource for it to be burnt at all. \r\n</p>\r\n\r\n<img src=\"/assets/fce/oil2.png\"
+    style=\"float:left;margin-right:20px\"/>\r\n<h2>Fuel Chain Emissions</h2>\r\n\r\n<p>The
+    numbers for the fuel chain emissions of crude oil have been taken from the <a
+    href='http://refman.et-model.com/publications/1708' target='blank'>JEC consortium
+    analyses</a> (version 3c, WTT appendices 1 and 2). These numbers were supplied
+    by CONCAWE, the European trade organisation of refineries. As such they represent
+    an average European case. We have not shown numbers for refining crude to make
+    diesel or gasoline, nor have we attempted to create country specific emissions
+    profiles (for oil from Kuwait or Nigeria, for example), as was done for coal or
+    natural gas. Instead we have chosen to use an average profile for crude oil. </p>\r\n<p>This
+    was done in order to be consistent with the EU's European Energy Directive. The
+    RED use a single, generalized profile for greenhouse gas emissions for diesel
+    and gasoline. Since the use of biofuels is strongly dependent on the regulations
+    stipulated in the RED - without which they would probably be too costly to use
+    - as similar level of detail has been chosen as the RED uses. \r\nMoreover, a
+    separate refining model would be required in order to be able to specify emissions
+    for diesel and gasoline production from crude oil. This is not possible with the
+    ETM however. Rather than by the countries of origin, chain emissions are determined
+    by the combination of oil quality and type of refinery. Saudi Arabia exports both
+    Arabian Light and Arabian heavy crudes, for example. </p>\r\n<p>Arabian Heavy
+    contains a lot of components with high boiling points, that can only be sold as
+    fuel oil unless treated in energy-intensive refining processes. Such processes,
+    like catalytic cracking or hydro-cracking allow for some conversion into diesel
+    or gasoline, but result in higher greenhouse gas emissions. Complex refineries
+    like Shell Pernis or ExxonMobil Roterdam support these processes. So-called hydro-skimming
+    refineries like Koch Refinery BV just boil and distill the crude into fuel oil,
+    diesel, gasoline and other products. Complex refineries also take light crudes,
+    in order to ensure a certain level of fuel quality. Each individual refinery is
+    unique in how it combines crudes and processes.</p>\r\n\r\n<h2>Numbers and Facts</h2>\r\n\r\n<p>The
+    numbers and references used to quantify the fuel chain emissions for oil can be
+    found on our 'Reference Manager'. The <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>Fuel Chain Emissions documentation</a> can be downloaded there
+    (will open in a new tab).</p>"
+  content_nl: "<img src=\"/assets/fce/oil1.png\" style=\"float:right;margin-left:20px\"/>\r\n<h2>Aardolie
+    als grondstof</h2>\r\n\r\n<p>Het imago van aardolie loopt nu en dan behoorlijke
+    schade op als gevolg van spectaculaire milieurampen, schendingen van mensenrechten
+    of corruptie. Toch heeft de wereldeconomie nog een hele tijd aardolie nodig. In
+    Nederland komt bijna de helft van het industriële gebruik en bijna al het gebruik
+    voor transport voor rekening van aardolieproducten.  \r\n</p>\r\n<p>Aardolie wordt
+    in ontwikkelde landen nauwelijks gebruikt om elektriciteit te produceren. Het
+    wordt vooral geraffineerd om er transportbrandstoffen en andere verbindingen van
+    te maken. Veel van deze verbindingen worden weer gebruikt als grondstoffen in
+    de chemische industrie. Er worden zelfs voedingsmiddelen en kunstmest van geproduceerd.
+    Er zijn mensen die beweren dat olie te waardevol is als grondstof om het te verbranden.
+    \r\n</p>\r\n\r\n<img src=\"/assets/fce/oil2.png\" style=\"float:left;margin-right:20px\"/>\r\n<h2>Ketenemissies</h2>\r\n\r\n<p>De
+    cijfers voor de ketenemissies van ruwe olie zijn overgenomen uit de <a href='http://refman.et-model.com/publications/1708'
+    target='blank'>JEC consortium analyses</a> (version 3c, WTT appendices 1 en 2).
+    De cijfers zijn aangeleverd door CONCAWE, de Europese brancheorganisatie van raffinaderijen.
+    Gezien de bron, zijn ze representatief voor een gemiddelde Europese situatie.
+    Er is gekozen om geen cijfers mee te nemen voor raffinage naar bijvoorbeeld benzine
+    of diesel. Er zijn dus geen profielen van broeikasgasemissies per product (diesel
+    of benzine) of per land (bijvoorbeeld Koeweit, Nigeria) opgesteld, zoals bijvoorbeeld
+    wel is gebeurd voor aardgas en steenkool. Er is in plaats daarvan voor één gemiddeld
+    profiel voor aardolie gekozen.\r\n</p>\r\n<p> Dit hebben we gedaan, omdat bij
+    de Renewable Energy Directive van de EU is aangesloten. De RED hanteert ook maar
+    één, sterk veralgemeniseerd profiel voor broeikasgasemissies voor diesel en benzine.
+    Vanwege de sterke relatie tussen gebruik van biobrandstoffen – die zonder de verplichting
+    in de RED om ze toe te passen waarschijnlijk te duur zouden zijn - en de RED is
+    gekozen voor het hanteren van dezelfde focus en detaillering als in de RED wordt
+    aangehouden. \r\nIn de tweede plaats is voor het meenemen van specifieke getallen
+    over raffinage en productie van benzine en diesel uit ruwe olie eigenlijk een
+    speciaal raffinagemodel nodig. Het ETM beschikt niet over deze mogeljkheid. Niet
+    zozeer de herkomst van de olie, maar vooral de combinatie van de kwaliteit van
+    de olie en het type raffinaderij is bepalend voor de broeikasgasemissies in de
+    keten. Saoedi Arabië bijvoorbeeld levert zowel Arabian Light als Arabian Heavy
+    crudes.</p>\r\n<p>De Arabian Heavy bevat veel hoogkokende componenten, die zonder
+    energie-intensieve opwerkingsprocessen als stookolie moeten worden verkocht. Met
+    energie-intensieve processen als katalytisch kraken (of catcracking) en als hydrocracking
+    valt er nog gedeeltelijk diesel en benzine van te maken. Maar die conversie geeft
+    wel hoge broeikasgasemissies. Complexe raffinaderijen als Shell Pernis en ExxonMobil
+    Rotterdam beschikken wel over dit soort processen. Bij zogenaamde hydroskimming
+    raffinaderijen als Koch Raffinaderij BV bijvoorbeeld wordt de olie alleen gekookt
+    en door condensatie van de dampen (destillatie) opgedeeld in benzine, diesel,
+    stookolie en andere producten. Complexe raffinaderijen nemen ook wel lichte crudes
+    in, bijvoorbeeld om een bepaalde kwaliteit benzine en diesel te kunnen produceren.
+    Bovendien is elke raffinaderij eigenlijk weer uniek qua toegepaste processen en
+    de verdeling van de ruwe olie over deze processen.</p>\r\n\r\n<h2>Achterliggende
+    documentatie</h2>\r\n\r\n<p>De getallen en referenties die gebruikt zijn om de
+    ketenemissies van aardolie te kwantificeren zijn te vinden op onze 'Reference
+    Manager'. De <a href='http://refman.et-model.com/publications/1623' target='blank'>documentatie
+    van de ketenanalyse</a> kun je daar downloaden (opent in een nieuwe tab).</p>"
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-05-14 15:21:03.000000000 Z
+    zone: *1
+    time: 2012-05-14 17:21:03.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-07-03 09:41:07.000000000 Z
+    zone: *1
+    time: 2012-07-03 11:41:07.000000000 Z
+  title_en: ''
+  title_nl: ''
+  short_content_en: ''
+  short_content_nl: ''
+- id: 26
+  key: fce_liquid_biofuels
+  content_en: "<h2>Fuel chain emisssions for bio-ethanol and biodiesel</h2>\r\n<h3>Bio-ethanol</h3>\r\n<p>Bio-ethanol
+    is a product of fermentation of sugars by yeast and other micro-oganisms. The
+    process is similar to the production of wine or beer. Just like in the production
+    of liquors the alcohol formed is concentrated by distillation. Liquors are distilled
+    to no more than 80%, ethanol for transport is typically concentrated to 96 vol%
+    - 100 vol%. </p>\r\n\r\n<p> In Europe, bio-ethanol is often produced from granes
+    or sugar beets, but sources like surplus wine are not uncommon. Granes are attractive
+    because they are easy to store without rotting. Sugar beet ethanol makes up roughly
+    1/3 of total EU ethanol production. We have not included granes as a source of
+    sugars in this analysis, as this competes directly with the production of food.
+    More information on what raw materials have and have not been considered, see
+    the <a href='http://refman.et-model.com/publications/1623' target='blank'> documentation</a>.\r\nOther
+    regions of the world tend to use sugar cane as their raw material of choice for
+    ethanol production. </p>\r\n\r\n<p>Sugar cane growing in Brazil for the production
+    of ethanol is sometimes linked to unsustainable practices like slavery, exhaustion
+    of water supplies and displacement of other agricultural activities, cuase indirect
+    destruction of forests. It is not easy to prove displacement of cattle farming
+    and can in theory also be avoided by using excess bagasse as cattle feed. This
+    would relieve pressure by reducing the grasslands needed for grazing. </p>\r\n\r\n<p>Bio-ethanol
+    can be mixed with gasoline up to mixtures of no more than 10 vol%. Higher percentages
+    require adjustments to engines, fuel systems and engine control. \r\nSo-called
+    E85 and E95 mixtures of respectively 85% and 95% ethanol fractions are also available.
+    These mixtures can be used by 'flex-fuel' vehicles with engines that can handle
+    E85, E95 and gasoline equally well. Such vehicles are especially popular in Brazil,
+    where they represent 40% of all cars and over 90% of new gasoline cars sold. Other
+    countries where such cars are popular are the United States and Sweden.</p> \r\n\r\n<img
+    src=\"/assets/fce/bio_ethanol.png\" style=\"float:right;margin-left:15px;padding-bottom:15px\"/>\r\n\r\n<p>A
+    disadvantage of pure ethanol is that its energy density (in MJ/litre) is lower.
+    A full tank will therefore carry you less far. Ethanol is also more volatile than
+    gasoline, creating an increased risk that fugitive hydrocarbon emissions cause
+    summer smog. </p>\r\n\r\n<p>Bio-ethanol production is not entirely without impact
+    on the climate. Growing, treatment and transport of bio-ethanol still result in
+    greenhouse gas emissions. Replacing gasoline with bio-ethanol entirely would reduce
+    emissions by 60 - 80%.</p>\r\n\r\n<p>This reduction in greenhouse gas emissions
+    related to indirect land use changes (ILUC) have not been taken into account.
+    Indirect changes that lead to destruction of forest or other natural high-vegetation
+    landschapes would result in such increases in emissions that it would more than
+    make up for the reductions caused by the use of bio-ethanol to replace gasoline.
+    </p>\r\n\r\n<h3>Biodiesel</h3>\r\n<p>Biodiesel and 'hydrotreated vegetable oils'
+    (HVO) are liquid biofuels that can be used as alternatives to diesel. </p>\r\n\r\n<p>Biodiesel
+    is produced from animal and plant fats in a process called 'esterification'. Fats
+    consist of molecules that contain 3 fatty acids chemically bound to glycerol.
+    Such molecules tend to be so large and heavy that they form solids at room temperature,
+    rendering them useless as transport fuels. Replacing glycerol in a chemical reaction
+    with methanol produces 3 smaller separate molecules that do form liquids at room
+    temperature and below.</p>\r\n\r\n<p>Biodiesel cannot be mixed into ordinary diesel
+    in fractions exceeding 7%. Adjusted engines can run on so-called B20 and B30 mixtures
+    of r20% and 30% biodiesel fractions respectively.</p>\r\n\r\n<p>HVO from waste
+    fats is made from both animal and plant fats. Unlike in biodiesel production,
+    in HVO production they are reacted with hydrogen. The product has the same characteristics
+    as ordinary diesel. Much higher fractions of HVO can be present in HVO-diesel
+    mixtures therefore, without any adverse effects. A side product of this reaction
+    is propane gas. </p>\r\n\r\n<p>Biodiesel production is a relatively simple process
+    that requires low investments and can therefore also be done at small scale. HVO
+    production is very capital intensive and only suited for large-scale industrial
+    installations. </p>\r\n\r\n<h2>Documentation</h2>\r\n<p>The numbers and references
+    used to quantify fuel chain emissions of liquid biofuels are available on our
+    'Reference Manager'. The <a href='http://refman.et-model.com/publications/1623'
+    target='blank'>documentation of this analysis</a> can be downloaded there (will
+    open on a separate tab).</p>\r\n"
+  content_nl: "<h2>Ketenemissies van bio-ethanol en biodiesel</h2>\r\n<h3>Bio-ethanol</h3>\r\n<p>Bio-ethanol
+    is het product van fermentatie van suikers door gist en andere micro-organismen.
+    Het proces is in feite vergelijkbaar met de productie van wijn en bier, waarbij
+    suikers uit druiven of granen door gist worden gefermenteerd. \r\nNet als bij
+    productie van sterke dranken wordt de gevormde alcohol geconcentreerd door destillatie
+    – bij sterke drank tot 80 volumeprocent, bij ethanol voor transport tot 96 vol%
+    - 100 vol%. </p>\r\n\r\n<p>Bio-ethanol wordt in Europa vaak geproduceerd uit granen
+    en suikerbiet, maar ook wel uit overschotten wijn. Granen zijn de meest gebruikelijke
+    grondstof vanwege hun houdbaarheid. Suikerbiet is de grondstof voor ongeveer 1/3
+    van de totale ethanolproductie in de EU. In deze analyse is graan als grondstof
+    niet meegenomen, omdat dit ten koste gaat van de productie van voedingsmiddelen.
+    Voor meer informatie over de grondstoffen die wel en niet zijn meegenomen, zie
+    de <a href='http://refman.et-model.com/publications/1623' target='blank'> documentatie</a>.\r\nBuiten
+    Europa wordt vooral rietsuiker als grondstof gebruikt.</p>\r\n\r\n<p>Rietsuikerteelt
+    in Brazilië voor ethanolproductie wordt wel in verband gebracht met onduurzame
+    praktijken als slavernij, uitputting van watervoorraden en verdringing van andere
+    landbouwactiviteiten, waardoor indirecte ontbossing optreedt. Verdringing van
+    veehouderij is echter moeilijk hard te maken en kan in principe ook worden voorkomen
+    door het overschot aan bagasse als veevoer te gebruiken. Daardoor is in principe
+    minder grasland voor grazen nodig.</p>\r\n\r\n<p>Bio-ethanol mag in de EU tot
+    10 vol% worden bijgemengd aan benzine. Voor hogere percentages zijn aanpassingen
+    nodig aan motor, brandstofsysteem en motormanagement. \r\nEr zijn ook zogenaamde
+    E85 en E95 mixen van respectievelijk 85% ethanol en 15% benzine en 95% ethanol
+    en 5% benzine op de markt. Deze mixen kunnen worden gebruikt in aangepaste zogenaamde
+    'flex-fuel' voertuigen met een motor waarin zowel E85, E95 als pure benzine kan
+    worden gebruikt. Flex-fuel voertuigen zijn vooral populair in Brazilië, waar ze
+    40% van alle benzineauto's en meer dan 90% van de nieuwe benzineauto's uitmaken.
+    Andere landen met een hoog percentage flex-fuel auto's zijn de Verenigde Staten
+    en Zweden.</p>\r\n\r\n<img src=\"/assets/fce/bio_ethanol.png\" style=\"float:right;margin-left:15px;padding-bottom:15px\"/>\r\n\r\n<p>Pure
+    ethanol heeft als nadeel ten opzichte van benzine dat de energie-dichtheid in
+    MJ/liter lager is. Daardoor kan op een volle tank minder ver worden gereden. \r\nEthanol
+    is daarnaast vluchtiger dan  benzine, waardoor er een risico is dat emissies van
+    zomersmog vormende koolwaterstoffen bij transport, overslag en tanken hoger zijn
+    als bij benzine.  \r\n</p>\r\n\r\n<p>De productie van bio-ethanol is niet compleet
+    klimaatneutraal. Teelt, bewerking en transport leveren uitstoot van broeikasgassen
+    op. Over het geheel genomen zal de vervanging van benzine door bio-ethanol de
+    uitstoot van broeikasgassen met 60 - 80% verlagen. </p>\r\n\r\n<p>In deze afname
+    zijn de broeikasgasemissies gerelateerd aan zogenaamde indirecte veranderingen
+    in landgebruik (ILUC) niet verdisconteerd. Indirecte veranderingen in landgebruik
+    die leiden tot degradatie van bossen of andere natuurlijke landschappen met veel
+    vegetatie zouden resulteren in broeikasgasemissies van een dergelijke omvang dat
+    de directe verlaging in broeikasgassen door gebruik van bio-ethanol in auto's
+    compleet teniet zou worden gedaan. </p>\r\n\r\n<h3>Biodiesel</h3>\r\n<p>Biodiesel
+    en 'hydrotreated vegetable oils' (HVO) zijn biobrandstoffen die kunnen worden
+    gebruikt als alternatief voor diesel.</p>\r\n\r\n<p>Biodiesel is een product geproduceerd
+    door het 'omesteren' van plantaardige en dierlijke vetten. Vetten zijn verbindingen
+    waarin zogenaamde vetzuren per 3 gebonden zijn aan glycerol. Zo'n samengesteld
+    molecuul is zo groot en zwaar, dat het bij kamertemperatuur of lagere temperaturen
+    vaak vast of gestold is en daardoor niet bruikbaar is als transportbrandstof voor
+    verbrandingsmotoren. \r\nDoor glycerol te vervangen dor een chemische reactie
+    met methanol ontstaan drie losse vetzure methylesters – drie kleinere en losse
+    moleculen, die bij kamertemperatuur of lagere temperaturen wel vloeibaar zijn.</p>\r\n\r\n<p>Biodiesel
+    mag tot maximaal 7 vol% worden bijgemengd bij gewone diesel. In aangepaste voertuigen
+    kunnen zogenaamde B20 en B30 mengsels met respectievelijk 20% en 30% biodiesel
+    worden gebruikt. \r\n</p> \r\n<p>HVO uit restvetten wordt van dierlijke en plantaardige
+    vetten gemaakt. Maar anders dan bij biodieselproductie worden de vetten bij de
+    productie van HVO met waterstof behandeld. Het product heeft dezelfde eigenschappen
+    als conventionele diesel en kan daarom in veel hogere percentages worden bijgemengd
+    bij diesel. Naast diesel wordt ook propaan geproduceerd. \r\n</p>\r\n<p>Biodieselproductie
+    is een relatief eenvoudig proces met lage investeringen en is om die reden ook
+    makkelijk te implementeren, ook kleinschalig. HVO productie daarentegen is kapitaalintensief
+    en is alleen geschikt voor zeer grote industriële installaties. \r\n</p>\r\n\r\n<h2>Achterliggende
+    documentatie</h2>\r\n<p>De getallen en referenties die gebruikt zijn om de ketenemissies
+    van vloeibare biobrandstoffen te kwantificeren zijn te vinden op onze 'Reference
+    Manager'. De <a href='http://refman.et-model.com/publications/1623' target='blank'>documentatie
+    van de ketenanalyse</a> kun je daar downloaden (opent in een nieuwe tab).</p>"
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-12-12 13:51:02.000000000 Z
+    zone: *1
+    time: 2012-12-12 14:51:02.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-12-19 23:46:14.000000000 Z
+    zone: *1
+    time: 2012-12-20 00:46:14.000000000 Z
+  title_en: ''
+  title_nl: ''
+  short_content_en: ''
+  short_content_nl: ''
+- id: 27
+  key: partner_info
+  content_en: An English translation will be made available shortly. Until that time,
+    please refer to the Dutch text.
+  content_nl: "<h1>Wat betekent het om partner van het Energietransitiemodel te zijn?</h1>\r\n\r\n<p>Bij
+    het Energietransitiemodel (ETM) zijn drie soorten partners aangesloten. Om duidelijk
+    te maken dat het ETM inderdaad onafhankelijk is, vindt u hieronder een nadere
+    beschrijving van de rol die deze partners spelen bij de totstandkoming en verbetering
+    van het ETM. \r\n</p>\r\n<br/>\r\n\r\n<h2>Partners die kennis delen en het ETM
+    financieel en in natura steunen</h2>\r\n<p>Partners uit deze categorie hebben
+    de grootste impact hebben op het Energietransitiemodel (ETM). Aangezien het model
+    gratis toegankelijk is voor iedereen is geld nodig om onderhoud, uitbreidingen
+    en verbeteringen te kunnen doen. Naast geld is vaak ook specialistische kennis
+    nodig. Daarvoor werkt Quintel, de maker van het ETM, samen met bedrijven en overheden
+    die geïnteresseerd zijn om het model te verbeteren of uit te breiden. \r\n</p>\r\n\r\n\r\n<h3>Rechten
+    en invloed van partners</h3>\r\n<p>Betalende partners hebben geen dwingende invloed
+    op de gebruikte gegevens of uitkomsten van het ETM. Wel hebben deze partners indirect
+    invloed op wat het ETM kan. Het ETM is op sommige gebieden beter uitgewerkt dan
+    op andere, omdat het eenvoudiger is om partners te vinden voor deze onderwerpen.
+    Zo is met steun van onze partners elektriciteit vrij uitgebreid in het ETM opgenomen,
+    terwijl bijvoorbeeld landbouw er nog heel eenvoudig in zit. </p>\r\n\r\n\r\n<h3>Voorwaarden
+    voor funding</h3>\r\n<p>Quintel heeft uiteraard verplichtingen richting de betalende
+    partners om bijvoorbeeld de werking van nieuwe toevoegingen aan het model met
+    hen te valideren. <br/>\r\nOok dient Quintel zich te houden aan de scope en methode
+    die per project wordt afgesproken in samenwerkingsovereenkomsten. <br/>\r\nQuintel
+    noemt bovendien alle betalende partners bij naam op de website van het Energietransitiemodel.</p>\r\n\r\n<p>De
+    belangrijkste voorwaarde die Quintel aan dergelijke samenwerking verbindt, is
+    dat het eindproduct weer gratis voor iedereen beschikbaar is. Zo ontstaat als
+    het ware een ‘kennispool’ waar iedereen vanuit zijn eigen specialisme aan bijdraagt.
+    <br/>\r\nPartners leveren naast een financiële bijdrage vaak ook kennis voor het
+    modelleren van een bepaald onderwerp. Quintel heeft het recht om deze gegevens
+    te valideren met een andere partij en aan te vullen of zonodig aan te passen.
+    Meer informatie over het proces voor kwaliteitsverbetering vindt u <a href='http://beta.et-model.com/quality_control'
+    target='blank'>hier</a>. </p>\r\n<br/>\r\n\r\n<h2>Partners die kennis delen en
+    het ETM in natura steunen</h2>\r\n<p>Kennispartners dragen inhoudelijk bij aan
+    het ETM zonder daarvoor direct te betalen. Dit gebeurt bijvoorbeeld omdat zij
+    onderdeel zijn van een samenwerking met een betalende partner, of omdat zij het
+    belangrijk vinden dat een bepaald onderwerp correct door het ETM behandeld wordt.</p>
+    \r\n  \r\n<p>\r\nOnze kennispartners  dragen ook bij door te helpen bij het zoeken
+    naar gegevens of door gevonden gegevens te valideren. </p>\r\n<br/>\r\n\r\n<h2>Partners
+    waarmee we samenwerken om lesmateriaal te ontwikkelen</h2>\r\n<p>Deze partners
+    delen de visie van Quintel dat onderwijs noodzakelijk is om op lange termijn de
+    juiste beslissingen te nemen rondom energietransitie. Per project wordt op een
+    andere manier samengewerkt. Quintel streeft ernaar om zoveel mogelijk onderwijsmateriaal
+    gratis beschikbaar te stellen. Deze partners zijn zelden direct betrokken bij
+    aanpassingen van het ETM.</p>"
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-03-28 13:40:18.000000000 Z
+    zone: *1
+    time: 2013-03-28 14:40:18.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-03-29 08:10:13.000000000 Z
+    zone: *1
+    time: 2013-03-29 09:10:13.000000000 Z
+  title_en: What does it mean to be partners of the Energie Transition Model?
+  title_nl: Wat betekent het om partner van het Energietransitiemodel te zijn?
+  short_content_en: ''
+  short_content_nl: ''
+- id: 28
+  key: quality_control
+  content_en: An English translation of this text will be made available shortly.
+    Until then, please refer to the Dutch text.
+  content_nl: "<p>Het Energietransitiemodel (ETM) is het resultaat van tientallen
+    manjaren werken. Uiteraard is het model nooit 'af'. Om er toch voor te zorgen
+    dat het ETM betrouwbaar blijft, hanteert Quintel een doorlopend proces van kwaliteitsverbetering.
+    Daarbij betrekken wij actief de  <a href='http://www.energietransitiemodel.nl/partners?partner_type=info'
+    target='blank'>partners</a> en gebruikers.</p>\r\n\r\n<p>Zoals te zien is op de
+    pagina <a href='http://www.energietransitiemodel.nl/known_issues' target='blank'>tekortkomingen</a>
+    kunnen er altijd dingen verbeterd worden aan het ETM. De volgorde waarmee dingen
+    worden opgepakt is deels afhankelijk van de ernst van een probleem, maar ook van
+    de prioriteiten die Quintel en haar partners hieraan geven. Voor grote verbetertrajecten
+    is immers geld nodig.</p>\r\n<br/>\r\n\r\n<h2>Verbeterproces</h2>\r\n<p>Quintel
+    werkt voortdurend aan het onderhoud en verbetering van de data en modelleren.
+    De beoogde uitkomst hiervan is steeds dat erkende experts tevreden zijn met de
+    kwaliteit van data of modellering voor een bepaald onderwerp. Wij zetten ons in
+    om dit proces in toenemende mate in de 'openbaarheid' te laten verlopen. Er is
+    nog geen proces waarin gebruikte data of de werking van het model 'gevalideerd'
+    worden, in de zin dat een bevoegde organisatie publiekelijk verklaart dat het
+    ETM 'correct' werkt.</p>\r\n\r\n<p>Bij <strong>controversiële onderwerpen</strong>
+    raadplegen wij altijd partijen met andere of zelfs tegengestelde belangen om ervoor
+    te zorgen dat de gebruikte data objectief zijn. <br/>\r\nDenk daarbij aan onderwerpen
+    zoals bijvoorbeeld kernenergie en geassocieerde kosten, maar ook windenergie of
+    de prestaties van brandstofauto's vergeleken met elektrische. Voor al deze onderwerpen
+    en meer zijn organisaties geconsulteerd die juist voor- of tegenstander zijn van
+    uitbreiding van bovengenoemde technologieën. <br/>\r\nZo heeft Quintel de cijfers
+    rondom elektrische auto's met Enexis en Essent, maar ook met Shell gevalideerd.
+    Quintel maakt bovendien ook zoveel mogelijk gebruik van eigen onderzoek en openbaar
+    toegankelijke rapporten en publicaties. De laatste zijn beschikbaar in onze  <a
+    href='http://refman.et-model.com/' target='blank'>online bibliotheek</a>.</p>\r\n\r\n<p>Omdat
+    het ETM alleen gebruik maakt van 'harde' wetten en bekende feiten, zoals de koolstofinhoud
+    van brandstoffen of de efficiënties van centrales bijvoorbeeld, blijken verreweg
+    de meeste onderwerpen nauwelijks controversieel te zijn. Een groter probleem voor
+    Quintel is het feit dat niet alle benodigde data eenvoudig toegankelijk is. \r\n<br/>\r\nDenk
+    daarbij bijvoorbeeld aan commercieel gevoelige informatie als de vergoeding die
+    elektriciteitscentrales krijgen om warmte te leveren aan een warmtenet of lastig
+    te simlpificeren informatie als de isolatiegraad in kantoorgebouwen.\r\n</p>\r\n\r\n<h3>Partijen</h3>
+    \r\n<p>Een prominente rol bij dit proces is weggelegd voor onze <strong>partners</strong>.
+    Dankzij het netwerk van partners kunnen wij vrij eenvoudig bepalen wie over de
+    juiste kennis en data beschikt om een verbetering door te voeren.\r\n</p>\r\n\r\n<p>Feedback
+    van <strong>gebruikers</strong> is essentieel om verbeterpunten op te sporen.
+    Juist door het ETM gratis aan te bieden en zoveel mogelijk gebruikers te bereiken,
+    zorgen wij ervoor dat alle delen van het model gebruikt en daarmee gecontroleerd
+    worden.</p>\r\n\r\n<p>Bij alle verbeterprocessen heeft <strong>Quintel</strong>
+    altijd de eindverantwoordelijkheid. Dit betekent dat Quintel uiteindelijk kan
+    beslissen welke data en modellering te gebruiken. Op de <a href='http://www.energietransitiemodel.nl/partners?partner_type=info'
+    target='blank'>partnerpagina</a> staat hierover meer informatie.</p>"
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-03-28 14:20:14.000000000 Z
+    zone: *1
+    time: 2013-03-28 15:20:14.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-03-29 08:07:52.000000000 Z
+    zone: *1
+    time: 2013-03-29 09:07:52.000000000 Z
+  title_en: Quality improvement and monitoring of modeling and data
+  title_nl: Kwaliteitsverbetering en –bewaking van modellering en data
+  short_content_en: ''
+  short_content_nl: ''

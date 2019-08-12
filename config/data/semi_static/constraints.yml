@@ -1,0 +1,257 @@
+---
+- id: 1
+  key: total_primary_energy
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2010-08-04 11:55:37.000000000 Z
+    zone: &1 !ruby/object:ActiveSupport::TimeZone
+      name: Europe/Amsterdam
+    time: 2010-08-04 13:55:37.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-01-25 15:00:56.000000000 Z
+    zone: *1
+    time: 2016-01-25 16:00:56.000000000 Z
+  gquery_key: dashboard_energy_demand_primary_of_final_plus_export_losses
+  group: energy_use
+  position: 1
+  disabled: false
+  output_element_id: 45
+- id: 2
+  key: co2_reduction
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2010-08-04 11:55:37.000000000 Z
+    zone: *1
+    time: 2010-08-04 13:55:37.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-01-25 15:00:55.000000000 Z
+    zone: *1
+    time: 2016-01-25 16:00:55.000000000 Z
+  gquery_key: dashboard_reduction_of_co2_emissions_versus_1990
+  group: co2
+  position: 2
+  disabled: false
+  output_element_id: 46
+- id: 3
+  key: net_energy_import
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2010-08-04 11:55:37.000000000 Z
+    zone: *1
+    time: 2010-08-04 13:55:37.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-03-22 16:44:43.000000000 Z
+    zone: *1
+    time: 2012-03-22 17:44:43.000000000 Z
+  gquery_key: dashboard_energy_import_netto
+  group: import
+  position: 3
+  disabled: false
+  output_element_id: 
+- id: 4
+  key: total_energy_cost
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2010-08-04 11:55:37.000000000 Z
+    zone: *1
+    time: 2010-08-04 13:55:37.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-01-25 15:00:56.000000000 Z
+    zone: *1
+    time: 2016-01-25 16:00:56.000000000 Z
+  gquery_key: dashboard_total_costs
+  group: costs
+  position: 4
+  disabled: false
+  output_element_id: 48
+- id: 5
+  key: bio_footprint
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2010-08-04 11:55:37.000000000 Z
+    zone: *1
+    time: 2010-08-04 13:55:37.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-03-22 16:44:43.000000000 Z
+    zone: *1
+    time: 2012-03-22 17:44:43.000000000 Z
+  gquery_key: dashboard_bio_footprint
+  group: footprint
+  position: 5
+  disabled: false
+  output_element_id: 
+- id: 6
+  key: renewable_percentage
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2010-08-04 11:55:37.000000000 Z
+    zone: *1
+    time: 2010-08-04 13:55:37.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-01-25 15:00:56.000000000 Z
+    zone: *1
+    time: 2016-01-25 16:00:56.000000000 Z
+  gquery_key: dashboard_renewability
+  group: renewable
+  position: 6
+  disabled: false
+  output_element_id: 49
+- id: 9
+  key: household_energy_cost
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2011-11-09 12:48:34.000000000 Z
+    zone: *1
+    time: 2011-11-09 13:48:34.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-01-25 15:00:56.000000000 Z
+    zone: *1
+    time: 2016-01-25 16:00:56.000000000 Z
+  gquery_key: dashboard_total_costs_per_household
+  group: costs
+  position: 
+  disabled: false
+  output_element_id: 113
+- id: 10
+  key: loss_of_load
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2011-12-02 11:30:00.000000000 Z
+    zone: *1
+    time: 2011-12-02 12:30:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-25 15:07:20.000000000 Z
+    zone: *1
+    time: 2019-04-25 17:07:20.000000000 Z
+  gquery_key: dashboard_security_of_supply
+  group: summary
+  position: 
+  disabled: false
+  output_element_id: 111
+- id: 11
+  key: renewable_electricity_percentage
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-01-04 14:01:41.000000000 Z
+    zone: *1
+    time: 2012-01-04 15:01:41.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-01-25 15:00:56.000000000 Z
+    zone: *1
+    time: 2016-01-25 16:00:56.000000000 Z
+  gquery_key: dashboard_share_of_renewable_electricity
+  group: renewable
+  position: 
+  disabled: false
+  output_element_id: 112
+- id: 13
+  key: profitability
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-12-10 13:14:42.000000000 Z
+    zone: *1
+    time: 2012-12-10 14:14:42.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-01-25 15:00:56.000000000 Z
+    zone: *1
+    time: 2016-01-25 16:00:56.000000000 Z
+  gquery_key: dashboard_profitability
+  group: costs
+  position: 
+  disabled: false
+  output_element_id: 140
+- id: 14
+  key: local_co2_reduction
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-10-30 10:37:12.000000000 Z
+    zone: *1
+    time: 2014-10-30 11:37:12.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-01-25 15:00:56.000000000 Z
+    zone: *1
+    time: 2016-01-25 16:00:56.000000000 Z
+  gquery_key: dashboard_reduction_of_local_co2_emissions_versus_1990
+  group: co2
+  position: 
+  disabled: false
+  output_element_id: 46
+- id: 15
+  key: blackout_hours
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-07-05 10:10:04.000000000 Z
+    zone: *1
+    time: 2016-07-05 12:10:04.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-25 15:06:12.000000000 Z
+    zone: *1
+    time: 2019-04-25 17:06:12.000000000 Z
+  gquery_key: dashboard_blackout_hours
+  group: summary
+  position: 7
+  disabled: false
+  output_element_id: 172
+- id: 16
+  key: total_number_of_excess_events
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-07-19 14:22:05.000000000 Z
+    zone: *1
+    time: 2016-07-19 16:22:05.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-25 15:07:37.000000000 Z
+    zone: *1
+    time: 2019-04-25 17:07:37.000000000 Z
+  gquery_key: dashboard_total_number_of_excess_events
+  group: summary
+  position: 
+  disabled: false
+  output_element_id: 175
+- id: 17
+  key: co2_reduction_relative_to_start_year
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-09-29 15:13:08.000000000 Z
+    zone: *1
+    time: 2016-09-29 17:13:08.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-09-29 15:13:08.000000000 Z
+    zone: *1
+    time: 2016-09-29 17:13:08.000000000 Z
+  gquery_key: dashboard_co2_emissions_versus_start_year
+  group: co2
+  position: 
+  disabled: false
+  output_element_id: 46
+- id: 18
+  key: renewable_percentage_households
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-12-17 10:09:06.000000000 Z
+    zone: *1
+    time: 2016-12-17 11:09:06.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-12-17 10:09:06.000000000 Z
+    zone: *1
+    time: 2016-12-17 11:09:06.000000000 Z
+  gquery_key: dashboard_renewability_households
+  group: renewable
+  position: 
+  disabled: false
+  output_element_id: 49
+- id: 19
+  key: biomass_primary_demand
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-05-06 08:57:04.000000000 Z
+    zone: *1
+    time: 2019-05-06 10:57:04.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-05-13 09:43:41.000000000 Z
+    zone: *1
+    time: 2019-05-13 11:43:41.000000000 Z
+  gquery_key: dashboard_biomass_primary_demand
+  group: footprint
+  position: 
+  disabled: false
+  output_element_id: 
+- id: 20
+  key: biomass_final_demand
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-05-06 08:57:38.000000000 Z
+    zone: *1
+    time: 2019-05-06 10:57:38.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-05-13 09:43:58.000000000 Z
+    zone: *1
+    time: 2019-05-13 11:43:58.000000000 Z
+  gquery_key: dashboard_biomass_final_demand
+  group: footprint
+  position: 
+  disabled: false
+  output_element_id: 

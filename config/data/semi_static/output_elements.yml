@@ -1,0 +1,3170 @@
+---
+- id: 2
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:31:17.000000000 Z
+    zone: &1 !ruby/object:ActiveSupport::TimeZone
+      name: Europe/Amsterdam
+    time: 2018-06-27 13:31:17.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_electricity_demand_in_households
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 5
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:31:28.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:31:28.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: source_of_electricity_in_households
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 28
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:31:41.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:31:41.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: source_of_heat_and_electricity_in_industry
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 29
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:31:52.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:31:52.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: agriculture
+  show_point_label: false
+  growth_chart: true
+  key: use_of_final_demand_in_agriculture
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 30
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:32:05.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:32:05.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: agriculture
+  show_point_label: false
+  growth_chart: false
+  key: source_of_heat_in_agriculture
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 31
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:32:17.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:32:17.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: other
+  show_point_label: false
+  growth_chart: true
+  key: use_of_final_demand_in_other_sector
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 32
+  output_element_type_id: 8
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2011-03-10 06:04:34.000000000 Z
+    zone: *1
+    time: 2011-03-10 07:04:34.000000000 Z
+  under_construction: false
+  unit: 
+  percentage: 
+  group: Cost
+  sub_group: 
+  show_point_label: 
+  growth_chart: 
+  key: overview_costs_of_electricity_production
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 42
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 13:50:10.000000000 Z
+    zone: *1
+    time: 2018-06-27 15:50:10.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: heat
+  show_point_label: false
+  growth_chart: false
+  key: source_of_heat_production
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 43
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 13:56:50.000000000 Z
+    zone: *1
+    time: 2018-06-27 15:56:50.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: transport_fuels
+  show_point_label: false
+  growth_chart: false
+  key: use_of_transport_fuels
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 45
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 12:24:44.000000000 Z
+    zone: *1
+    time: 2018-06-27 14:24:44.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: true
+  growth_chart: false
+  key: use_of_primary_energy
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 46
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 12:04:41.000000000 Z
+    zone: *1
+    time: 2018-06-27 14:04:41.000000000 Z
+  under_construction: false
+  unit: MT
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: co2_emissions
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 47
+  output_element_type_id: 3
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:07:43.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:07:43.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: production_curves_and_import
+  show_point_label: true
+  growth_chart: false
+  key: present_energy_imports
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 48
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-05-18 07:14:26.000000000 Z
+    zone: *1
+    time: 2018-05-18 09:14:26.000000000 Z
+  under_construction: false
+  unit: euro
+  percentage: false
+  group: Cost
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: breakdown_of_total_costs
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 49
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2011-03-10 06:04:34.000000000 Z
+    zone: *1
+    time: 2011-03-10 07:04:34.000000000 Z
+  under_construction: false
+  unit: "%"
+  percentage: false
+  group: Overview
+  sub_group: 
+  show_point_label: true
+  growth_chart: 
+  key: renewability
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 52
+  output_element_type_id: 4
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2011-03-10 06:04:34.000000000 Z
+    zone: *1
+    time: 2011-03-10 07:04:34.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Overview
+  sub_group: 
+  show_point_label: 
+  growth_chart: 
+  key: mekko_of_primary_demand
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 56
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-01-03 10:11:36.000000000 Z
+    zone: *1
+    time: 2019-01-03 11:11:36.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: source_of_heat_used_in_households
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 196
+- id: 57
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:33:44.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:33:44.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: true
+  growth_chart: true
+  key: useful_demand_in_households
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 58
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-12-10 12:54:24.000000000 Z
+    zone: *1
+    time: 2018-12-10 13:54:24.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: true
+  key: effect_of_insulation_in_households
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 196
+- id: 61
+  output_element_type_id: 3
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-15 12:53:28.000000000 Z
+    zone: *1
+    time: 2018-06-15 14:53:28.000000000 Z
+  under_construction: false
+  unit: euro
+  percentage: false
+  group: Cost
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: additional_infrastructure_investments
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 62
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:34:11.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:34:11.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: agriculture
+  show_point_label: false
+  growth_chart: false
+  key: source_of_heat_and_electricity_in_agriculture
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 65
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:34:33.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:34:33.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: source_of_hot_water_in_households
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 66
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:34:43.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:34:43.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: source_of_cooling_in_households
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 67
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:34:53.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:34:53.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: source_of_cooking_in_households
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 68
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:35:07.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:35:07.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: buildings
+  show_point_label: false
+  growth_chart: true
+  key: use_of_final_demand_in_buildings
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 69
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:35:16.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:35:16.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: buildings
+  show_point_label: false
+  growth_chart: true
+  key: effect_of_insulation_in_buildings
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 70
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:35:23.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:35:23.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: buildings
+  show_point_label: false
+  growth_chart: false
+  key: source_of_heat_in_buildings
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 71
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:35:31.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:35:31.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: buildings
+  show_point_label: false
+  growth_chart: false
+  key: source_of_cooling_in_buildings
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 72
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:35:39.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:35:39.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: buildings
+  show_point_label: false
+  growth_chart: true
+  key: use_of_electricity_in_buildings
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 74
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:35:47.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:35:47.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: buildings
+  show_point_label: false
+  growth_chart: false
+  key: source_of_electricity_in_buildings
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 76
+  output_element_type_id: 3
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:07:56.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:07:56.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: production_curves_and_import
+  show_point_label: true
+  growth_chart: false
+  key: future_energy_imports
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 77
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:03:48.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:03:48.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: heat
+  show_point_label: false
+  growth_chart: false
+  key: gas_network_mix
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 99
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-12-10 12:49:50.000000000 Z
+    zone: *1
+    time: 2018-12-10 13:49:50.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: source_of_electricity_production
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 172
+- id: 100
+  output_element_type_id: 5
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:40:16.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:40:16.000000000 Z
+  under_construction: false
+  unit: kg/GJ
+  percentage: false
+  group: FCE
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: fuel_chain_emissions
+  max_axis_value: 125.0
+  min_axis_value: 0.0
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 102
+  output_element_type_id: 11
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-12-09 09:54:33.000000000 Z
+    zone: *1
+    time: 2013-12-09 10:54:33.000000000 Z
+  under_construction: false
+  unit: bln_euro
+  percentage: false
+  group: Cost
+  sub_group: 
+  show_point_label: false
+  growth_chart: false
+  key: breakdown_electricity_costs
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 105
+  output_element_type_id: 5
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:40:26.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:40:26.000000000 Z
+  under_construction: false
+  unit: kg/GJ
+  percentage: false
+  group: FCE
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: fuel_chain_emissions_scaled_for_uranium
+  max_axis_value: 0.3
+  min_axis_value: 0.0
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 107
+  output_element_type_id: 5
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:40:34.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:40:34.000000000 Z
+  under_construction: false
+  unit: kg/GJ
+  percentage: false
+  group: FCE
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: fuel_chain_emissions_scaled_for_greengas
+  max_axis_value: 20.0
+  min_axis_value: 0.0
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 110
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2011-10-03 10:02:31.000000000 Z
+    zone: *1
+    time: 2011-10-03 12:02:31.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:37:45.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:37:45.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: source_of_district_heating_in_households
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 111
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2011-12-05 15:41:50.000000000 Z
+    zone: *1
+    time: 2011-12-05 16:41:50.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:05:28.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:05:28.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Supply
+  sub_group: electricity
+  show_point_label: false
+  growth_chart: false
+  key: security_of_supply
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 113
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-02-24 09:21:36.000000000 Z
+    zone: *1
+    time: 2012-02-24 10:21:36.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-10-10 13:01:10.000000000 Z
+    zone: *1
+    time: 2013-10-10 15:01:10.000000000 Z
+  under_construction: false
+  unit: euro
+  percentage: false
+  group: Cost
+  sub_group: 
+  show_point_label: false
+  growth_chart: false
+  key: breakdown_of_total_cost_per_household
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 115
+  output_element_type_id: 15
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-03-09 10:31:20.000000000 Z
+    zone: *1
+    time: 2012-03-09 11:31:20.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-11-03 13:51:15.000000000 Z
+    zone: *1
+    time: 2014-11-03 14:51:15.000000000 Z
+  under_construction: false
+  unit: Additional emissions (kgCO2/MWhe volatile) ; Additional costs (EUR/MWhe volatile)
+  percentage: false
+  group: Supply
+  sub_group: 
+  show_point_label: false
+  growth_chart: false
+  key: flexibility_of_backup_scatter_plot
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 116
+  output_element_type_id: 12
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-03-12 12:09:52.000000000 Z
+    zone: *1
+    time: 2012-03-12 13:09:52.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:40:16.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:40:16.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Merit
+  sub_group: merit_order
+  show_point_label: false
+  growth_chart: false
+  key: merit_order_table
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 118
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-03-13 14:02:54.000000000 Z
+    zone: *1
+    time: 2012-03-13 15:02:54.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-03-07 09:25:54.000000000 Z
+    zone: *1
+    time: 2019-03-07 10:25:54.000000000 Z
+  under_construction: false
+  unit: FTE
+  percentage: false
+  group: Cost
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: employment_categories
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 119
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-04-04 09:51:02.000000000 Z
+    zone: *1
+    time: 2012-04-04 11:51:02.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:38:00.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:38:00.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: buildings
+  show_point_label: false
+  growth_chart: false
+  key: source_of_district_heating_in_buildings
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 123
+  output_element_type_id: 17
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-05-16 13:44:46.000000000 Z
+    zone: *1
+    time: 2012-05-16 15:44:46.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-08-09 12:46:29.000000000 Z
+    zone: *1
+    time: 2018-08-09 14:46:29.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: sankey
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 125
+  output_element_type_id: 29
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-05-31 13:16:16.000000000 Z
+    zone: *1
+    time: 2012-05-31 15:16:16.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-09-18 14:34:00.000000000 Z
+    zone: *1
+    time: 2018-09-18 16:34:00.000000000 Z
+  under_construction: false
+  unit: Eur/Mwh
+  percentage: false
+  group: Merit
+  sub_group: merit_order
+  show_point_label: false
+  growth_chart: false
+  key: merit_order
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 127
+  output_element_type_id: 18
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-06-26 12:18:18.000000000 Z
+    zone: *1
+    time: 2012-06-26 14:18:18.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:41:35.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:41:35.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Policy
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: renewability_targets
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 129
+  output_element_type_id: 17
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-07-16 14:31:54.000000000 Z
+    zone: *1
+    time: 2012-07-16 16:31:54.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-08-09 12:46:39.000000000 Z
+    zone: *1
+    time: 2018-08-09 14:46:39.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: sankey_2010
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 130
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-08-31 12:45:09.000000000 Z
+    zone: *1
+    time: 2012-08-31 14:45:09.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:38:12.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:38:12.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: true
+  key: use_of_final_demand_in_industry_aluminium
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 131
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-09-12 12:55:16.000000000 Z
+    zone: *1
+    time: 2012-09-12 14:55:16.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:38:21.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:38:21.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: true
+  key: use_of_final_demand_in_industry_other_metals
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 132
+  output_element_type_id: 18
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-09-27 08:55:41.000000000 Z
+    zone: *1
+    time: 2012-09-27 10:55:41.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:41:47.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:41:47.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Policy
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: dependence_targets
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 133
+  output_element_type_id: 18
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-09-27 08:57:15.000000000 Z
+    zone: *1
+    time: 2012-09-27 10:57:15.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:42:42.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:42:42.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Policy
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: cost_targets
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 134
+  output_element_type_id: 18
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-09-27 08:57:40.000000000 Z
+    zone: *1
+    time: 2012-09-27 10:57:40.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:42:50.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:42:50.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Policy
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: area_targets
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 135
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-10-04 13:08:51.000000000 Z
+    zone: *1
+    time: 2012-10-04 15:08:51.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:38:32.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:38:32.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: true
+  key: use_of_final_demand_in_industry_steel
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 136
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-10-15 12:25:11.000000000 Z
+    zone: *1
+    time: 2012-10-15 14:25:11.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:39:10.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:39:10.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: true
+  key: use_of_final_demand_in_industry_metal
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 137
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-11-06 09:56:28.000000000 Z
+    zone: *1
+    time: 2012-11-06 10:56:28.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:39:28.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:39:28.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: impact_of_climate_on_heat_and_cooling_demand_households_and_buildings
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 138
+  output_element_type_id: 5
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-12-11 16:23:45.000000000 Z
+    zone: *1
+    time: 2012-12-11 17:23:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:41:18.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:41:18.000000000 Z
+  under_construction: false
+  unit: kg/GJ
+  percentage: false
+  group: FCE
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: fuel_chain_emissions_scaled_for_liquid_biofuels
+  max_axis_value: 125.0
+  min_axis_value: 0.0
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 140
+  output_element_type_id: 12
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2012-12-19 15:00:38.000000000 Z
+    zone: *1
+    time: 2012-12-19 16:00:38.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:40:42.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:40:42.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Merit
+  sub_group: merit_order
+  show_point_label: false
+  growth_chart: false
+  key: plant_profitability
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 141
+  output_element_type_id: 12
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-02-19 10:06:20.000000000 Z
+    zone: *1
+    time: 2013-02-19 11:06:20.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 13:56:26.000000000 Z
+    zone: *1
+    time: 2018-06-27 15:56:26.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Supply
+  sub_group: heat
+  show_point_label: false
+  growth_chart: false
+  key: chp_properties
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 142
+  output_element_type_id: 12
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-03-14 08:36:25.000000000 Z
+    zone: *1
+    time: 2013-03-14 09:36:25.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-11-13 13:53:49.000000000 Z
+    zone: *1
+    time: 2013-11-13 14:53:49.000000000 Z
+  under_construction: false
+  unit: bln_euro
+  percentage: false
+  group: Cost
+  sub_group: 
+  show_point_label: false
+  growth_chart: false
+  key: investment_table
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 143
+  output_element_type_id: 19
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-06-14 14:27:13.000000000 Z
+    zone: *1
+    time: 2013-06-14 16:27:13.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:23:23.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:23:23.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Merit
+  sub_group: flexibility
+  show_point_label: false
+  growth_chart: false
+  key: energy_storage
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 145
+  output_element_type_id: 12
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-07-17 14:31:16.000000000 Z
+    zone: *1
+    time: 2013-07-17 16:31:16.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-28 16:05:46.000000000 Z
+    zone: *1
+    time: 2018-06-28 18:05:46.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: population_residences_overview
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 146
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-11-04 12:37:05.000000000 Z
+    zone: *1
+    time: 2013-11-04 13:37:05.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 13:06:44.000000000 Z
+    zone: *1
+    time: 2018-06-27 15:06:44.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: Overview
+  show_point_label: false
+  growth_chart: false
+  key: final_demand_mekko_mece
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 147
+  output_element_type_id: 20
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:23:00.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:23:00.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Merit
+  sub_group: import_export
+  show_point_label: false
+  growth_chart: false
+  key: import_export_capacity
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 148
+  output_element_type_id: 21
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-11-07 16:41:47.000000000 Z
+    zone: *1
+    time: 2013-11-07 17:41:47.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:22:45.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:22:45.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Merit
+  sub_group: import_export
+  show_point_label: false
+  growth_chart: false
+  key: import_export_renewables
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 149
+  output_element_type_id: 22
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-11-11 00:00:00.000000000 Z
+    zone: *1
+    time: 2013-11-11 01:00:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:23:11.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:23:11.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Merit
+  sub_group: import_export
+  show_point_label: false
+  growth_chart: false
+  key: import_export_flows
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 152
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2013-12-09 08:25:10.000000000 Z
+    zone: *1
+    time: 2013-12-09 09:25:10.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:39:40.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:39:40.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: true
+  key: use_of_final_demand_in_industry_chemical_detailed
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 156
+  output_element_type_id: 23
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-24 10:26:46.000000000 Z
+    zone: *1
+    time: 2014-01-24 11:26:46.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:02:42.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:02:42.000000000 Z
+  under_construction: false
+  unit: EUR/MWh
+  percentage: false
+  group: Merit
+  sub_group: import_export
+  show_point_label: false
+  growth_chart: false
+  key: import_export_cwe
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 157
+  output_element_type_id: 24
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-05-15 11:11:04.000000000 Z
+    zone: *1
+    time: 2014-05-15 13:11:04.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:06:41.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:06:41.000000000 Z
+  under_construction: false
+  unit: EJ
+  percentage: false
+  group: Supply
+  sub_group: production_curves_and_import
+  show_point_label: false
+  growth_chart: false
+  key: production_curve_coal
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 158
+  output_element_type_id: 24
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-05-15 11:11:04.000000000 Z
+    zone: *1
+    time: 2014-05-15 13:11:04.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:06:51.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:06:51.000000000 Z
+  under_construction: false
+  unit: EJ
+  percentage: false
+  group: Supply
+  sub_group: production_curves_and_import
+  show_point_label: false
+  growth_chart: false
+  key: production_curve_crude_oil
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 159
+  output_element_type_id: 24
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-05-15 11:11:04.000000000 Z
+    zone: *1
+    time: 2014-05-15 13:11:04.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:07:01.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:07:01.000000000 Z
+  under_construction: false
+  unit: EJ
+  percentage: false
+  group: Supply
+  sub_group: production_curves_and_import
+  show_point_label: false
+  growth_chart: false
+  key: production_curve_natural_gas
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 160
+  output_element_type_id: 24
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-05-15 11:11:04.000000000 Z
+    zone: *1
+    time: 2014-05-15 13:11:04.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:07:13.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:07:13.000000000 Z
+  under_construction: false
+  unit: EJ
+  percentage: false
+  group: Supply
+  sub_group: production_curves_and_import
+  show_point_label: false
+  growth_chart: false
+  key: production_curve_woody_biomass
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 161
+  output_element_type_id: 24
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-05-15 11:11:04.000000000 Z
+    zone: *1
+    time: 2014-05-15 13:11:04.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:07:24.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:07:24.000000000 Z
+  under_construction: false
+  unit: EJ
+  percentage: false
+  group: Supply
+  sub_group: production_curves_and_import
+  show_point_label: false
+  growth_chart: false
+  key: production_curve_uranium
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 162
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-12-15 15:38:00.000000000 Z
+    zone: *1
+    time: 2014-12-15 16:38:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 13:53:31.000000000 Z
+    zone: *1
+    time: 2018-06-27 15:53:31.000000000 Z
+  under_construction: false
+  unit: MT
+  percentage: false
+  group: Supply
+  sub_group: electricity
+  show_point_label: false
+  growth_chart: false
+  key: co2_of_electricity_production
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 163
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2015-03-18 10:23:17.000000000 Z
+    zone: *1
+    time: 2015-03-18 11:23:17.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-12-10 12:56:34.000000000 Z
+    zone: *1
+    time: 2018-12-10 13:56:34.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Merit
+  sub_group: flexibility
+  show_point_label: false
+  growth_chart: false
+  key: use_of_excess_electricity
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 173
+- id: 164
+  output_element_type_id: 12
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2015-03-18 14:11:42.000000000 Z
+    zone: *1
+    time: 2015-03-18 15:11:42.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-01-03 10:26:33.000000000 Z
+    zone: *1
+    time: 2019-01-03 11:26:33.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Merit
+  sub_group: flexibility
+  show_point_label: false
+  growth_chart: false
+  key: storage_options
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 173
+- id: 165
+  output_element_type_id: 4
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 12:07:45.000000000 Z
+    zone: *1
+    time: 2018-06-27 14:07:45.000000000 Z
+  under_construction: false
+  unit: T
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: mekko_of_primary_co2
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 166
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2015-08-17 15:42:45.000000000 Z
+    zone: *1
+    time: 2015-08-17 17:42:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:11:09.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:11:09.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: biomass
+  show_point_label: false
+  growth_chart: false
+  key: mekko_of_primary_demand_of_biomass
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 168
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2015-10-08 13:40:00.000000000 Z
+    zone: *1
+    time: 2015-10-08 15:40:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-02-11 11:26:22.000000000 Z
+    zone: *1
+    time: 2019-02-11 12:26:22.000000000 Z
+  under_construction: true
+  unit: km2
+  percentage: false
+  group: Supply
+  sub_group: biomass
+  show_point_label: false
+  growth_chart: false
+  key: mekko_of_bio_footprint
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 170
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-02-05 15:08:50.000000000 Z
+    zone: *1
+    time: 2016-02-05 16:08:50.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-02-08 16:11:28.000000000 Z
+    zone: *1
+    time: 2016-02-08 17:11:28.000000000 Z
+  under_construction: false
+  unit: euro
+  percentage: false
+  group: Cost
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: investment_electric_cars
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 171
+  output_element_type_id: 16
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-05-03 10:16:09.000000000 Z
+    zone: *1
+    time: 2016-05-03 12:16:09.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:41:40.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:41:40.000000000 Z
+  under_construction: false
+  unit: EUR/MWh
+  percentage: false
+  group: Merit
+  sub_group: merit_order
+  show_point_label: false
+  growth_chart: false
+  key: merit_order_price_curve
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 172
+  output_element_type_id: 16
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-05-03 10:16:09.000000000 Z
+    zone: *1
+    time: 2016-05-03 12:16:09.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:42:04.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:42:04.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Merit
+  sub_group: merit_order
+  show_point_label: false
+  growth_chart: false
+  key: merit_order_hourly_supply
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 173
+  output_element_type_id: 16
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-05-03 10:16:22.000000000 Z
+    zone: *1
+    time: 2016-05-03 12:16:22.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:43:02.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:43:02.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Merit
+  sub_group: flexibility
+  show_point_label: false
+  growth_chart: false
+  key: merit_order_hourly_flexibility
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 174
+  output_element_type_id: 4
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-02-12 10:57:14.000000000 Z
+    zone: *1
+    time: 2019-02-12 11:57:14.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: heat
+  show_point_label: false
+  growth_chart: false
+  key: mekko_of_heat_network
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 175
+  output_element_type_id: 16
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-06-30 10:02:33.000000000 Z
+    zone: *1
+    time: 2016-06-30 12:02:33.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:41:52.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:41:52.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Merit
+  sub_group: merit_order
+  show_point_label: false
+  growth_chart: false
+  key: merit_order_excess_events
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 176
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-07 10:03:20.000000000 Z
+    zone: *1
+    time: 2014-01-07 11:03:20.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-10-09 08:45:21.000000000 Z
+    zone: *1
+    time: 2018-10-09 10:45:21.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: mekko_of_detailed_final_demand_in_industry
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 178
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-07 10:03:20.000000000 Z
+    zone: *1
+    time: 2014-01-07 11:03:20.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-10-09 08:45:33.000000000 Z
+    zone: *1
+    time: 2018-10-09 10:45:33.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: mekko_of_detailed_final_demand_in_industry_energetic
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 180
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-07 09:25:06.000000000 Z
+    zone: *1
+    time: 2014-01-07 10:25:06.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:39:54.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:39:54.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_industry_chemical_refineries
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 181
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-07 09:25:06.000000000 Z
+    zone: *1
+    time: 2014-01-07 10:25:06.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:40:02.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:40:02.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_industry_other_paper
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 182
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-07 09:25:06.000000000 Z
+    zone: *1
+    time: 2014-01-07 10:25:06.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:40:14.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:40:14.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_industry_chemical_other
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 183
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-07 09:25:06.000000000 Z
+    zone: *1
+    time: 2014-01-07 10:25:06.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:40:25.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:40:25.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_industry_other_food
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 184
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-07 09:25:06.000000000 Z
+    zone: *1
+    time: 2014-01-07 10:25:06.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:40:32.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:40:32.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_industry_chemical_fertilizers
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 186
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-07 09:25:06.000000000 Z
+    zone: *1
+    time: 2014-01-07 10:25:06.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-10-09 07:56:48.000000000 Z
+    zone: *1
+    time: 2018-10-09 09:56:48.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_industry_other
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 187
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-01-07 09:25:06.000000000 Z
+    zone: *1
+    time: 2014-01-07 10:25:06.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:41:06.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:41:06.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_industry_chemical
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 188
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-08-22 08:01:17.000000000 Z
+    zone: *1
+    time: 2016-08-22 10:01:17.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:09:58.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:09:58.000000000 Z
+  under_construction: false
+  unit: MT
+  percentage: false
+  group: Supply
+  sub_group: biomass
+  show_point_label: false
+  growth_chart: false
+  key: co2_emissions_biomass
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 189
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-08-23 14:50:57.000000000 Z
+    zone: *1
+    time: 2016-08-23 16:50:57.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:41:18.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:41:18.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: industry
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_industry_other_ict
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 190
+  output_element_type_id: 17
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-08-29 10:58:43.000000000 Z
+    zone: *1
+    time: 2016-08-29 12:58:43.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:08:31.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:08:31.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: transport_fuels
+  show_point_label: false
+  growth_chart: false
+  key: refinery
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 191
+  output_element_type_id: 17
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-09-28 09:29:03.000000000 Z
+    zone: *1
+    time: 2016-09-28 11:29:03.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-25 10:39:18.000000000 Z
+    zone: *1
+    time: 2019-04-25 12:39:18.000000000 Z
+  under_construction: false
+  unit: T
+  percentage: false
+  group: Supply
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: co2_sankey
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 192
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-11-10 17:07:46.000000000 Z
+    zone: *1
+    time: 2016-11-10 18:07:46.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:13:57.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:13:57.000000000 Z
+  under_construction: false
+  unit: "%"
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: relative_primary_co2
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 193
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2016-11-10 17:07:46.000000000 Z
+    zone: *1
+    time: 2016-11-10 18:07:46.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:14:12.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:14:12.000000000 Z
+  under_construction: false
+  unit: "%"
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: relative_primary_demand_of_coal_oil_and_gas
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 194
+  output_element_type_id: 28
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-05-15 16:15:21.000000000 Z
+    zone: *1
+    time: 2017-05-15 18:15:21.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:46:53.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:46:53.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Merit
+  sub_group: merit_order
+  show_point_label: false
+  growth_chart: false
+  key: dynamic_demand_curve
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 195
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-08-23 14:57:06.000000000 Z
+    zone: *1
+    time: 2017-08-23 16:57:06.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 13:55:47.000000000 Z
+    zone: *1
+    time: 2018-06-27 15:55:47.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: heat
+  show_point_label: false
+  growth_chart: false
+  key: heat_deficit
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 196
+  output_element_type_id: 27
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-08-31 15:15:26.000000000 Z
+    zone: *1
+    time: 2017-08-31 17:15:26.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:49:00.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:49:00.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: household_heat_demand_and_production
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 197
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-10-30 09:29:34.000000000 Z
+    zone: *1
+    time: 2017-10-30 10:29:34.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-10 08:14:03.000000000 Z
+    zone: *1
+    time: 2018-04-10 10:14:03.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: hydrogen_production_for_fertilizers
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 198
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-11-15 16:30:59.000000000 Z
+    zone: *1
+    time: 2017-11-15 17:30:59.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:12:21.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:12:21.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: true
+  key: use_of_final_demand_in_international_transport
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 199
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-11-15 16:30:59.000000000 Z
+    zone: *1
+    time: 2017-11-15 17:30:59.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:12:31.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:12:31.000000000 Z
+  under_construction: false
+  unit: MT
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: co2_emission_international_transportation
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 200
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-11-17 14:31:50.000000000 Z
+    zone: *1
+    time: 2017-11-17 15:31:50.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 14:01:30.000000000 Z
+    zone: *1
+    time: 2018-06-27 16:01:30.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: transport_fuels
+  show_point_label: false
+  growth_chart: false
+  key: kerosene_production_in_bunkers
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 201
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-11-09 15:06:34.000000000 Z
+    zone: *1
+    time: 2017-11-09 16:06:34.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:41:31.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:41:31.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: transport_categories_overview
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 202
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-11-16 09:07:46.000000000 Z
+    zone: *1
+    time: 2017-11-16 10:07:46.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:41:40.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:41:40.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_passenger_transport
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 203
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:41:49.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:41:49.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_cars
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 204
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:41:56.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:41:56.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_motorcycles_and_bicycles
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 205
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:42:04.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:42:04.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_planes
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 206
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:42:11.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:42:11.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_busses_trains_and_trams
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 207
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:42:19.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:42:19.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_freight_transport_technologies
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 208
+  output_element_type_id: 13
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:42:29.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:42:29.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: use_of_final_demand_in_freight_transport
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 209
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-11-23 15:02:55.000000000 Z
+    zone: *1
+    time: 2017-11-23 16:02:55.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:42:36.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:42:36.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: transport
+  show_point_label: false
+  growth_chart: false
+  key: international_transport_categories_overview
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 211
+  output_element_type_id: 12
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-12-18 15:27:00.000000000 Z
+    zone: *1
+    time: 2017-12-18 16:27:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:46:17.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:46:17.000000000 Z
+  under_construction: false
+  unit: MT
+  percentage: false
+  group: Merit
+  sub_group: flexibility
+  show_point_label: false
+  growth_chart: false
+  key: carbon_balance
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 212
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-02-20 14:18:29.000000000 Z
+    zone: *1
+    time: 2018-02-20 15:18:29.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 13:34:48.000000000 Z
+    zone: *1
+    time: 2018-06-27 15:34:48.000000000 Z
+  under_construction: false
+  unit: "%"
+  percentage: true
+  group: Supply
+  sub_group: electricity
+  show_point_label: false
+  growth_chart: false
+  key: renewable_electricity
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 213
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-03-05 08:23:59.000000000 Z
+    zone: *1
+    time: 2018-03-05 09:23:59.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-27 11:47:22.000000000 Z
+    zone: *1
+    time: 2018-06-27 13:47:22.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Demand
+  sub_group: households
+  show_point_label: false
+  growth_chart: false
+  key: households_final_demand_per_application
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 214
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-03-08 15:22:30.000000000 Z
+    zone: *1
+    time: 2018-03-08 16:22:30.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-01-03 10:13:49.000000000 Z
+    zone: *1
+    time: 2019-01-03 11:13:49.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: hydrogen
+  show_point_label: false
+  growth_chart: false
+  key: mekko_of_hydrogen_network
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 225
+- id: 215
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-03-30 15:21:20.000000000 Z
+    zone: *1
+    time: 2018-03-30 17:21:20.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-03-30 15:21:20.000000000 Z
+    zone: *1
+    time: 2018-03-30 17:21:20.000000000 Z
+  under_construction: false
+  unit: bln_euro
+  percentage: false
+  group: Cost
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: transport_fuel_costs_overview
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 216
+  output_element_type_id: 16
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-20 09:28:26.000000000 Z
+    zone: *1
+    time: 2018-06-20 11:28:26.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Network
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: electricity_network_load
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 217
+  output_element_type_id: 16
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-20 09:28:40.000000000 Z
+    zone: *1
+    time: 2018-06-20 11:28:40.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Network
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: electricity_lv_network_load
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 218
+  output_element_type_id: 16
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-20 09:29:18.000000000 Z
+    zone: *1
+    time: 2018-06-20 11:29:18.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Network
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: electricity_mv_network_load
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 219
+  output_element_type_id: 16
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-20 09:31:48.000000000 Z
+    zone: *1
+    time: 2018-06-20 11:31:48.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Network
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: electricity_hv_network_load
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 220
+  output_element_type_id: 28
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-20 09:29:12.000000000 Z
+    zone: *1
+    time: 2018-06-20 11:29:12.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Network
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: lv_demand_curves
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 221
+  output_element_type_id: 28
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-20 09:31:56.000000000 Z
+    zone: *1
+    time: 2018-06-20 11:31:56.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Network
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: mv_demand_curves
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 222
+  output_element_type_id: 28
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-20 09:29:05.000000000 Z
+    zone: *1
+    time: 2018-06-20 11:29:05.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Network
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: hv_demand_curves
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 223
+  output_element_type_id: 12
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-01-03 12:43:44.000000000 Z
+    zone: *1
+    time: 2019-01-03 13:43:44.000000000 Z
+  under_construction: false
+  unit: ''
+  percentage: false
+  group: Network
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: electricity_network_capacity_and_peaks
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 216
+- id: 224
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-06-19 12:30:32.000000000 Z
+    zone: *1
+    time: 2018-06-19 14:30:32.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-12-10 12:55:20.000000000 Z
+    zone: *1
+    time: 2018-12-10 13:55:20.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: final_demand_mekko_energetic_mece
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 194
+- id: 225
+  output_element_type_id: 28
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-09-18 14:34:00.000000000 Z
+    zone: *1
+    time: 2018-09-18 16:34:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-09-18 14:34:00.000000000 Z
+    zone: *1
+    time: 2018-09-18 16:34:00.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Supply
+  sub_group: hydrogen
+  show_point_label: false
+  growth_chart: false
+  key: hydrogen_production
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 226
+  output_element_type_id: 28
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-09-18 14:34:00.000000000 Z
+    zone: *1
+    time: 2018-09-18 16:34:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-09-18 14:34:00.000000000 Z
+    zone: *1
+    time: 2018-09-18 16:34:00.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Supply
+  sub_group: hydrogen
+  show_point_label: false
+  growth_chart: false
+  key: hydrogen_demand
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 227
+  output_element_type_id: 28
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-09-18 14:34:00.000000000 Z
+    zone: *1
+    time: 2018-09-18 16:34:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-10-09 08:54:45.000000000 Z
+    zone: *1
+    time: 2018-10-09 10:54:45.000000000 Z
+  under_construction: false
+  unit: MWh
+  percentage: false
+  group: Supply
+  sub_group: hydrogen
+  show_point_label: false
+  growth_chart: false
+  key: hydrogen_storage
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 228
+  output_element_type_id: 29
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-09-18 14:34:00.000000000 Z
+    zone: *1
+    time: 2018-09-18 16:34:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-12-10 12:57:40.000000000 Z
+    zone: *1
+    time: 2018-12-10 13:57:40.000000000 Z
+  under_construction: false
+  unit: Eur/Mwh
+  percentage: false
+  group: Supply
+  sub_group: hydrogen
+  show_point_label: false
+  growth_chart: false
+  key: hydrogen_cost_capacity
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 225
+- id: 229
+  output_element_type_id: 4
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-02-11 11:27:46.000000000 Z
+    zone: *1
+    time: 2019-02-11 12:27:46.000000000 Z
+  under_construction: true
+  unit: km2
+  percentage: false
+  group: Supply
+  sub_group: biomass
+  show_point_label: false
+  growth_chart: false
+  key: mekko_bio_footprint
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 230
+  output_element_type_id: 4
+  created_at: 
+  updated_at: 
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: biomass
+  show_point_label: false
+  growth_chart: false
+  key: mekko_demand_bio_resource
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 231
+  output_element_type_id: 27
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-12-05 09:13:05.000000000 Z
+    zone: *1
+    time: 2018-12-05 10:13:05.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 12:49:33.000000000 Z
+    zone: *1
+    time: 2019-04-18 14:49:33.000000000 Z
+  under_construction: false
+  unit: MW
+  percentage: false
+  group: Demand
+  sub_group: buildings
+  show_point_label: false
+  growth_chart: false
+  key: buildings_heat_demand_and_production
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: true
+  related_output_element_id: 
+- id: 232
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-12-18 14:26:27.000000000 Z
+    zone: *1
+    time: 2018-12-18 15:26:27.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-02-12 16:14:05.000000000 Z
+    zone: *1
+    time: 2019-02-12 17:14:05.000000000 Z
+  under_construction: true
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: biomass
+  show_point_label: false
+  growth_chart: false
+  key: biofuel_demand_domestic_abroad
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 234
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-12-18 14:26:27.000000000 Z
+    zone: *1
+    time: 2018-12-18 15:26:27.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-12-18 14:26:27.000000000 Z
+    zone: *1
+    time: 2018-12-18 15:26:27.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: mekko_overview_of_all_heat_networks
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 235
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-01-10 12:52:00.000000000 Z
+    zone: *1
+    time: 2019-01-10 13:52:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-01-10 12:52:00.000000000 Z
+    zone: *1
+    time: 2019-01-10 13:52:00.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: heat
+  show_point_label: false
+  growth_chart: false
+  key: mekko_industrial_heat_network
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 236
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-01-10 13:45:34.000000000 Z
+    zone: *1
+    time: 2019-01-10 14:45:34.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-01-10 13:45:34.000000000 Z
+    zone: *1
+    time: 2019-01-10 14:45:34.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: heat
+  show_point_label: false
+  growth_chart: false
+  key: mekko_agricultural_heat_network
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 237
+  output_element_type_id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-01-18 14:15:38.000000000 Z
+    zone: *1
+    time: 2019-01-18 15:15:38.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-02-12 16:14:15.000000000 Z
+    zone: *1
+    time: 2019-02-12 17:14:15.000000000 Z
+  under_construction: true
+  unit: PJ
+  percentage: false
+  group: Supply
+  sub_group: biomass
+  show_point_label: false
+  growth_chart: false
+  key: bioresource_demand_domestic_abroad
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 238
+  output_element_type_id: 11
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-18 14:31:51.000000000 Z
+    zone: *1
+    time: 2019-04-18 16:31:51.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-25 12:36:53.000000000 Z
+    zone: *1
+    time: 2019-04-25 14:36:53.000000000 Z
+  under_construction: false
+  unit: "%"
+  percentage: true
+  group: Demand
+  sub_group: ''
+  show_point_label: true
+  growth_chart: false
+  key: final_energy_demand_per_sector_percentage
+  max_axis_value: 1.0
+  min_axis_value: 0.0
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 240
+  output_element_type_id: 13
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-04-25 13:36:54.000000000 Z
+    zone: *1
+    time: 2019-04-25 15:36:54.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-05-24 12:26:12.000000000 Z
+    zone: *1
+    time: 2019-05-24 14:26:12.000000000 Z
+  under_construction: false
+  unit: PJ
+  percentage: false
+  group: Overview
+  sub_group: ''
+  show_point_label: false
+  growth_chart: false
+  key: final_energy_demand_per_sector_joule
+  max_axis_value: 
+  min_axis_value: 
+  hidden: false
+  requires_merit_order: false
+  related_output_element_id: 
+- id: 241
+  output_element_type_id: 12
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-07-11 14:55:07.000000000 Z
+    zone: *1
+    time: 2019-07-11 16:55:07.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2019-07-11 14:55:07.000000000 Z
+    zone: *1
+    time: 2019-07-11 16:55:07.000000000 Z
+  under_construction: false
+  unit: 
+  percentage: false
+  group: Overview
+  sub_group: 
+  show_point_label: false
+  growth_chart: false
+  key: workflow
+  max_axis_value: 
+  min_axis_value: 
+  hidden: true
+  requires_merit_order: false
+  related_output_element_id: 

@@ -36,6 +36,7 @@ gem 'sentry-raven'
 # system gems
 gem 'mysql2'
 gem 'dalli'
+gem 'frozen_record'
 
 gem 'dynamic_form'
 
@@ -108,3 +109,4 @@ gem 'uglifier'
 gem 'compass-rails'
 gem 'compass-blueprint'
 gem 'oily_png' # Faster sprite compilation.
+gem 'yaml_db'

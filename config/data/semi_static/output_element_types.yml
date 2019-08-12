@@ -1,0 +1,117 @@
+---
+- id: 3
+  name: waterfall
+  created_at: 
+  updated_at: 
+- id: 4
+  name: mekko
+  created_at: 
+  updated_at: 
+- id: 5
+  name: horizontal_stacked_bar
+  created_at: 
+  updated_at: 
+- id: 8
+  name: block
+  created_at: 
+  updated_at: 
+- id: 9
+  name: line
+  created_at: 
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2011-11-09 12:48:34.000000000 Z
+    zone: &1 !ruby/object:ActiveSupport::TimeZone
+      name: Europe/Amsterdam
+    time: 2011-11-09 13:48:34.000000000 Z
+- id: 11
+  name: vertical_stacked_bar
+  created_at: 
+  updated_at: 
+- id: 12
+  name: html_table
+  created_at: 
+  updated_at: 
+- id: 13
+  name: bezier
+  created_at: 
+  updated_at: 
+- id: 14
+  name: grouped_vertical_bar
+  created_at: 
+  updated_at: 
+- id: 15
+  name: scatter
+  created_at: 
+  updated_at: 
+- id: 16
+  name: d3
+  created_at: 
+  updated_at: 
+- id: 17
+  name: sankey
+  created_at: 
+  updated_at: 
+- id: 18
+  name: target_bar
+  created_at: 
+  updated_at: 
+- id: 19
+  name: storage
+  created_at: 
+  updated_at: 
+- id: 20
+  name: import_export_capacity
+  created_at: 
+  updated_at: 
+- id: 21
+  name: import_export_renewables
+  created_at: 
+  updated_at: 
+- id: 22
+  name: import_export_flows
+  created_at: 
+  updated_at: 
+- id: 23
+  name: import_export_cwe
+  created_at: 
+  updated_at: 
+- id: 24
+  name: time_curve
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-05-15 11:11:04.000000000 Z
+    zone: *1
+    time: 2014-05-15 13:11:04.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2014-05-15 11:11:04.000000000 Z
+    zone: *1
+    time: 2014-05-15 13:11:04.000000000 Z
+- id: 27
+  name: heat_demand_and_production
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-08-31 15:15:26.000000000 Z
+    zone: *1
+    time: 2017-08-31 17:15:26.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2017-08-31 15:15:26.000000000 Z
+    zone: *1
+    time: 2017-08-31 17:15:26.000000000 Z
+- id: 28
+  name: demand_curve
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-04-18 11:19:45.000000000 Z
+    zone: *1
+    time: 2018-04-18 13:19:45.000000000 Z
+- id: 29
+  name: cost_capacity_bar
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-09-18 14:34:00.000000000 Z
+    zone: *1
+    time: 2018-09-18 16:34:00.000000000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2018-09-18 14:34:00.000000000 Z
+    zone: *1
+    time: 2018-09-18 16:34:00.000000000 Z
