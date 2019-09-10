@@ -1,12 +1,14 @@
+# frozen_string_literal: true
+
 Etm::Application.routes.draw do
   root to: 'pages#root'
   post '/' => 'pages#root'
 
-  get "gql/search"
+  get 'gql/search'
 
   get '/scaled', to: 'pages#scaled'
 
-  get '/info/:ctrl/:act' => "pages#info", as: :tab_info
+  get '/info/:ctrl/:act' => 'pages#info', as: :tab_info
 
   get '/texts/:id' => 'texts#show'
 
@@ -14,15 +16,15 @@ Etm::Application.routes.draw do
   get 'logout' => 'user_sessions#destroy', as: :logout
 
   resources :descriptions, only: :show
-  get '/descriptions/charts/:id'  => 'descriptions#charts'
+  get '/descriptions/charts/:id' => 'descriptions#charts'
 
   resources :user_sessions
-  resources :users, except: [:index, :show, :edit, :destroy]
-  resources :password_resets, only: [:new, :create, :edit, :update]
+  resources :users, except: %i[index show edit destroy]
+  resources :password_resets, only: %i[new create edit update]
 
   get '/users/:id/unsubscribe' => 'users#unsubscribe', as: :unsubscribe
 
-  resource :user, only: [:edit, :update, :destroy] do
+  resource :user, only: %i[edit update destroy] do
     post :confirm_delete, on: :member
   end
 
@@ -34,7 +36,7 @@ Etm::Application.routes.draw do
 
   resources :constraints, only: :show
 
-  resource :settings, only: [:edit, :update]
+  resource :settings, only: %i[edit update]
 
   get '/settings/dashboard',        to: 'settings#dashboard'
   put '/settings/dashboard',        to: 'settings#update_dashboard'
@@ -50,10 +52,11 @@ Etm::Application.routes.draw do
               :output_element_series,
               :general_user_notifications,
               :constraints,
-              :users
+              :users,
+              :projectors
 
     resources :texts, except: [:show]
-    resources :areas, only: [:index, :show]
+    resources :areas, only: %i[index show]
 
     resources :tabs do
       resources :sidebar_items
@@ -92,7 +95,7 @@ Etm::Application.routes.draw do
     end
   end
 
-  resources :saved_scenarios, only:[:show] do
+  resources :saved_scenarios, only: [:show] do
     member { get :load }
   end
 
@@ -102,13 +105,13 @@ Etm::Application.routes.draw do
 
   get '/scenario/reports/auto' => 'reports#auto'
   get '/scenario/reports/:id' => 'reports#show',
-    constraints: { id: /[0-9a-z-]+/ }, as: :report
+      constraints: { id: /[0-9a-z-]+/ }, as: :report
 
   # This is the main action
   get '/scenario/myc/:id' => 'scenarios#play_multi_year_charts'
   get '/scenario(/:tab(/:sidebar(/:slide)))' => 'scenarios#play', as: :play
 
-  resources :output_elements, only: [:index, :show] do
+  resources :output_elements, only: %i[index show] do
     collection do
       get 'visible/:id',   action: :visible
       get 'invisible/:id', action: :invisible
@@ -123,22 +126,22 @@ Etm::Application.routes.draw do
   match '/ete(/*url)',       to: 'api_proxy#default', via: :all
   match '/ete_proxy(/*url)', to: 'api_proxy#default', via: :all
 
-  get '/units'                        => 'pages#units'
-  get '/feedback'                     => 'pages#feedback', as: :feedback
-  post '/feedback'                    => 'pages#feedback'
-  get '/tutorial/(:tab)(/:sidebar)'   => 'pages#tutorial', as: :tutorial
-  get '/disclaimer'                   => 'pages#disclaimer'
-  get '/privacy_statement'            => 'pages#privacy_statement'
-  get '/show_all_countries'           => 'pages#show_all_countries'
-  get '/show_flanders'                => 'pages#show_flanders'
-  get '/sitemap(.:format)'            => 'pages#sitemap', defaults: {format: :xml}
-  get '/known_issues'                 => 'pages#bugs',        as: :bugs
-  get '/quality_control'              => 'pages#quality', as: :quality
-  get '/whats-new'                    => 'pages#whats_new', as: :whats_new
-  put '/set_locale(/:locale)' => 'pages#set_locale', as: :set_locale
-  get '/browser_support' => 'pages#browser_support'
-  get '/update_footer'   => 'pages#update_footer'
-  get '/regions/:dataset_locale' => 'pages#dataset', as: :region
+  get '/units'                      => 'pages#units'
+  get '/feedback'                   => 'pages#feedback', as: :feedback
+  post '/feedback'                  => 'pages#feedback'
+  get '/tutorial/(:tab)(/:sidebar)' => 'pages#tutorial', as: :tutorial
+  get '/disclaimer'                 => 'pages#disclaimer'
+  get '/privacy_statement'          => 'pages#privacy_statement'
+  get '/show_all_countries'         => 'pages#show_all_countries'
+  get '/show_flanders'              => 'pages#show_flanders'
+  get '/sitemap(.:format)'          => 'pages#sitemap', defaults: { format: :xml }
+  get '/known_issues'               => 'pages#bugs',        as: :bugs
+  get '/quality_control'            => 'pages#quality', as: :quality
+  get '/whats-new'                  => 'pages#whats_new', as: :whats_new
+  put '/set_locale(/:locale)'       => 'pages#set_locale', as: :set_locale
+  get '/browser_support'            => 'pages#browser_support'
+  get '/update_footer'              => 'pages#update_footer'
+  get '/regions/:dataset_locale'    => 'pages#dataset', as: :region
 
   get '/local-global' => 'compare#index', as: :local_global
   get '/local-global/:ids' => 'compare#show', as: :local_global_scenarios
@@ -150,6 +153,6 @@ Etm::Application.routes.draw do
   end
 
   %w[404 422 500].each do |code|
-    get "/#{ code }", to: 'errors#show', code: code
+    get "/#{code}", to: 'errors#show', code: code
   end
 end

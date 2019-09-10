@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_16_120851) do
+ActiveRecord::Schema.define(version: 2019_09_06_135208) do
 
   create_table "area_dependencies", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci", force: :cascade do |t|
     t.string "dependent_on"
@@ -135,6 +135,14 @@ ActiveRecord::Schema.define(version: 2019_08_16_120851) do
     t.index ["hidden"], name: "index_output_elements_on_hidden"
     t.index ["key"], name: "index_output_elements_on_key"
     t.index ["related_output_element_id"], name: "index_output_elements_on_related_output_element_id"
+  end
+
+  create_table "projectors", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.string "sliders", default: "--- []\n"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "roles", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci", force: :cascade do |t|

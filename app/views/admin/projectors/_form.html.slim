@@ -1,0 +1,18 @@
+= simple_form_for [:admin, @projector] do |form|
+  = form.input :name
+  = form.input :description
+
+  .input.optional.projector.select
+    label.select.optional.control-label for="projector_sliders" Sliders
+    = form.select "sliders", class: 'ms-select', multiple: "multiple" do
+      - @sliders.each do |slider|
+        option value=slider.id
+          =slider.key
+
+  = form.button :submit
+
+  javascript:
+    select = $('#projector_sliders')
+    select.multiSelect()
+
+= link_to "back", admin_tabs_path

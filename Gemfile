@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 ruby '2.6.3'
 
 source 'http://rubygems.org'
 
 git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
 
@@ -11,8 +13,13 @@ gem 'rails', '~> 5.2'
 gem 'activerecord-session_store'
 gem 'activeresource', '~> 5.0'
 
-gem 'jquery-rails', "~> 4.2.2"
+gem 'jquery-rails', '~> 4.2.2'
+
+# Planning on removing haml in favor of slim.
 gem 'haml', '~> 5.0'
+
+gem 'slim'
+
 gem 'authlogic'
 gem 'bcrypt'
 gem 'httparty'
@@ -56,7 +63,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   gem 'tomdoc'
-  gem 'yard-tomdoc', "~> 0.4.0"
+  gem 'yard-tomdoc', '~> 0.4.0'
 
   gem 'better_errors'
   gem 'seed_dump'
@@ -74,7 +81,7 @@ group :test, :development do
   gem 'pry-rails'
   gem 'pry-remote'
   gem 'pry-stack_explorer'
-  gem 'rspec-rails', "~> 3.5"
+  gem 'rspec-rails', '~> 3.5'
   gem 'watchr'
 
   gem 'rubocop', '~> 0.71.0', require: false
