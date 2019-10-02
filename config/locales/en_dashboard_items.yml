@@ -9,6 +9,9 @@ en:
     biomass_primary_demand:
       label: "Biomass use (primary)"
       title: "Primary biomass use"
+    biomass_import_share:
+      label: "Biomass import"
+      title: "Share of biomass import"
     blackout_hours:
       label: "Blackouts"
       title: "Number of blackout hours"
@@ -45,9 +48,6 @@ en:
     renewable_electricity_percentage:
       label: "Renewable el."
       title: "Total share of renewable electricity"
-    targets_met:
-      label: "Targets"
-      title: "Targets that are met or not"
     household_energy_cost:
       label: "Cost per home"
       title: "Annual energy cost per household"

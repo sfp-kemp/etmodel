@@ -127,7 +127,6 @@ Etm::Application.routes.draw do
   get '/feedback'                     => 'pages#feedback', as: :feedback
   post '/feedback'                    => 'pages#feedback'
   get '/tutorial/(:tab)(/:sidebar)'   => 'pages#tutorial', as: :tutorial
-  get '/prominent_users'              => 'pages#prominent_users'
   get '/disclaimer'                   => 'pages#disclaimer'
   get '/privacy_statement'            => 'pages#privacy_statement'
   get '/show_all_countries'           => 'pages#show_all_countries'
@@ -145,6 +144,10 @@ Etm::Application.routes.draw do
   get '/local-global/:ids' => 'compare#show', as: :local_global_scenarios
 
   resources :multi_year_charts, only: %i[index create destroy]
+
+  namespace :embeds do
+    resource :pico, only: [:show]
+  end
 
   %w[404 422 500].each do |code|
     get "/#{ code }", to: 'errors#show', code: code

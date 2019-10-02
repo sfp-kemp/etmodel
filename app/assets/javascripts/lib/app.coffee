@@ -11,7 +11,6 @@ class @AppView extends Backbone.View
     @sidebar     = new SidebarView()
     @scenario    = new Scenario()
     @router      = new Router()
-    @merit_order = new MeritOrder(this)
     @analytics   = new Analytics(window.ga);
 
     @api = new ApiGateway
@@ -114,7 +113,7 @@ class @AppView extends Backbone.View
 
   # Used on the console for debugging
   scenario_url: =>
-    "#{globals.api_url}/data/#{@scenario.api_session_id()}"
+    "#{globals.api_url}/inspect/#{@scenario.api_session_id()}"
 
   # Prepares the Merit Order abd FCE checkboxes
   setup_checkboxes: =>
@@ -158,9 +157,6 @@ class @AppView extends Backbone.View
         gquery.handle_api_result(values)
 
     @charts.invoke 'trigger', 'refresh'
-    if t = window.targets
-      t.invoke('update_view')
-      t.update_totals()
     @sidebar.update_bars()
 
   # Set the update in a cancelable action. When you

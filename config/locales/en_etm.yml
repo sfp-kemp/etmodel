@@ -59,8 +59,6 @@ en:
     press_releases: "Press releases"
     privacy_statement: "Privacy statement"
     publications: "Publications"
-    prominent_users: "Prominent users"
-    prominent_users_of_etm: "Prominent users of the Energy Transition Model"
     reset_scenario: "Reset scenario"
     reset_scenario_confirm: "Are you sure you wish to reset this scenario to the default settings? You will lose any changes you have made."
     save_scenario: "Save scenario"
@@ -143,10 +141,10 @@ en:
   updated:
     title: The ETM has been updated!
     description:
-      We’ve just added housing types, the hybrid heat pump using hydrogen, and
-      import of heat. It is now possible to toggle between yearly and hourly
-      supply and demand charts, and many municipalities, provinces and
-      countries have been added to the model!
+      All Dutch RES regions have been added to the ETM. All hourly demand and
+      supply profiles have been updated and you can now upload your own price
+      curve for imported electricity. Transition path charts allow you to explore the
+      path to realising your 2050 scenarios through the years.
 
   # ----------- Dashbord titles ----------- #
   dashboard:
@@ -171,6 +169,7 @@ en:
     temperature: "temperature"
     efficiency: "%/year"
     heat_demand_reduction: "heat demand reduction"
+    electricity_output: "Electricity output"
 
   #------------ Output Serie Labels ------------- #
   scenario:
@@ -184,6 +183,7 @@ en:
     go_back: "Or go back to"
     link: "Save your current settings into a scenario"
     load: "Open this scenario"
+    load_factsheet: "Open energy mix infographic"
     no_title: "Scenario without title"
     overview: "overview"
     overwritten: "Please note: Your current settings get overwritten."
@@ -251,13 +251,10 @@ en:
     lng_shipping_mix: "fuel mix LNG ships "
     lng_road_mix: "composition LNG"
     grid_composition: "gas composition in national network"
-    grid_greengas: "composition greengas in gas network"
     grid_natural_gas: "composition natural gas in gas network"
     pipeline_natural_gas: "pipeline natural gas"
     liquefied_natural_gas: "liquefied natural gas"
     demand_percentage: "% of total demand"
-    bio_ethanol_group: "Bio-ethanol"
-    biodiesel_biokerosene_group: "Biodiesel & biokerosene"
     per_person: "per person"
     per_household: "per residence"
     housing_stock: "housing stock"
@@ -281,6 +278,9 @@ en:
     coal_plant: "coal plant"
     gas_fired_chp: "gas-fired chp"
     chemical_other_non_energetic: "non-energetic use"
+    lv_network: "low voltage network"
+    mv_network: "medium voltage network"
+    hv_network: "high voltage network"
 
   "or": "or"
   "go": "go"
@@ -304,3 +304,12 @@ en:
     education_text:   "I'm a high-school or university student sent here by my teacher or lecturer; or I'm an educator and want to be able to view the scenarios created by my students."
     im_a_student:     "I'm a student"
     im_a_teacher:     "I'm a teacher"
+
+  pico:
+    ready: ready
+
+
+  embeds:
+    unsupported_area:
+      title: This area is not supported by PICO
+      back: back

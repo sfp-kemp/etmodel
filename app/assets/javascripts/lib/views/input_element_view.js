@@ -416,14 +416,7 @@
       this.quinnOnChange(this.quinn.model.value, this.quinn);
       this.updateSublabel(this.quinn.model.value);
 
-      // Disable buttons?
-      if (this.model.get('disabled')) {
-        this.disableButton('reset');
-        this.disableButton('decrease');
-        this.disableButton('increase');
-      } else {
-        this.refreshButtons();
-      }
+      this.refreshButtons();
 
       return this;
     },
@@ -455,7 +448,7 @@
         this.enableButton('increase');
       }
 
-      if (value === this.steppedInitialValue) {
+      if (value === this.initialValue || value === this.steppedInitialValue) {
         this.disableButton('reset');
       } else {
         this.enableButton('reset');
@@ -570,10 +563,10 @@
 
         // Quinn will round the value to the nearest step; to truely reset to
         // the original, we set the model to the initialValue.
-        this.model.set({ user_value: this.initialValue }, { silent: true });
+        this.model.reset({ silent: true });
 
         // Ensure that the initial value of untouched inputs are also sent.
-        this.model.markDirty()
+        this.model.markDirty();
       }
     },
 

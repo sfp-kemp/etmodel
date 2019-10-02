@@ -82,14 +82,14 @@ class @ConstraintView extends Backbone.View
         Metric.ratio_as_percentage(result)
       when 'renewable_electricity_percentage'
         Metric.ratio_as_percentage(result)
+      when 'biomass_import_share'
+        Metric.ratio_as_percentage(result)
       when 'bio_footprint'
         formatted = "#{Metric.round_number(result, 1)}x"
         if App.settings.get_scaling()
           formatted
         else
           "#{formatted}#{App.settings.country().toUpperCase()}"
-      when 'targets_met'
-        null
       when 'loss_of_load', 'blackout_hours', 'total_number_of_excess_events'
         "#{Metric.round_number(result, 0)} #{I18n.t('units.hours')}"
       when 'score'

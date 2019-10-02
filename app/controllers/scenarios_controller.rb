@@ -45,12 +45,6 @@ class ScenariosController < ApplicationController
   end
 
   def show
-    if @scenario.description
-      localized = @scenario.description_for_locale(I18n.locale)
-      text = localized.present? ? localized : @scenario.description
-      renderer = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
-      @description = renderer.render(text).html_safe
-    end
     if @scenario.created_at && @scenario.days_old > 180
       if SavedScenario.where('user_id = ? AND scenario_id = ?', current_user, @scenario.id).empty?
         @warning = t('scenario.preset_warning')

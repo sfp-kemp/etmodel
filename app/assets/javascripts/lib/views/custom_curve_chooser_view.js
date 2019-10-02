@@ -135,9 +135,10 @@
    * @return {string}
    */
   function formatTemporalValue(value, at, t) {
-    var date = new Date(0 + at * 1000 * 60 * 60);
+    var msInHour = 1000 * 60 * 60;
 
-    console.log(I18n.locale);
+    // new Date() starts at 1AM; subtract an hour to start at midnight.
+    var date = new Date(-msInHour + at * msInHour);
 
     return (
       formatValue(value, t) +

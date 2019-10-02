@@ -4,14 +4,18 @@
     .warning
       = @warning
 
-  %h1= @scenario.title.nil? ? t('scenario.no_title').truncate(40, separator: ' ') : @scenario.title.truncate(40, separator: ' ')
+  %h1= (@scenario.title or t 'scenario.no_title' ).truncate(40, separator: ' ')
 
-  = link_to t("scenario.load"), load_saved_scenario_path(@saved_scenario), class: "button primary"
+  = link_to t("scenario.load"),
+            load_saved_scenario_path(@saved_scenario),
+            class: "button primary"
 
-  -# Seems a to be a reduntant check to me. Don't think this is reachable
-  -# without a saved scenario
-  - if @saved_scenario.description
-    %em= @description
+  = link_to t("scenario.load_factsheet"),
+            factsheet_scenario_path(@saved_scenario.scenario_id),
+            class: "button"
+
+  - if @scenario.description
+    %em= formatted_scenario_description(@scenario.description)
 
   %ul
     - if @scenario.created_at
@@ -20,7 +24,7 @@
         = I18n.localize(@scenario.parsed_created_at, :format => :long)
     %li
       %strong #{t('scenario.area_code')}:
-      = t @scenario.area_code
+      = t "areas.#{@scenario.area_code}"
     %li
       %strong #{t('scenario.end_year')}:
       = @scenario.end_year

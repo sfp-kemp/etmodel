@@ -1,4 +1,4 @@
-ruby '2.4.2'
+ruby '2.6.3'
 
 source 'http://rubygems.org'
 
@@ -19,8 +19,10 @@ gem 'httparty'
 gem 'tabs_on_rails', '~> 3.0'
 gem 'kaminari', '~> 1.0.1'
 gem 'simple_form'
-gem 'nokogiri', '~> 1.8'
-gem 'redcarpet'
+gem 'nokogiri', '~> 1.10'
+gem 'rdiscount'
+gem 'loofah'
+gem 'rails-html-sanitizer'
 gem 'font-awesome-rails'
 gem 'non-stupid-digest-assets'
 gem 'http_accept_language'
@@ -75,8 +77,9 @@ group :test, :development do
   gem 'rspec-rails', "~> 3.5"
   gem 'watchr'
 
-  gem 'rubocop', '~> 0.67.2', require: false
+  gem 'rubocop', '~> 0.71.0', require: false
   gem 'rubocop-performance',  require: false
+  gem 'rubocop-rails',        require: false
   gem 'rubocop-rspec',        require: false
 
   gem 'pry-byebug', platform: :mri
@@ -88,7 +91,7 @@ group :test do
   gem 'shoulda-matchers', require: false
   gem 'rails-controller-testing'
   gem 'simplecov'
-  gem 'webmock'
+  gem 'webmock', '>= 3.5'
   gem 'capybara'
   gem 'launchy'
   gem 'vcr', '~> 3.0.3'

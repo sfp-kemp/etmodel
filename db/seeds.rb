@@ -398,7 +398,6 @@ Constraint.create!([
   { id: 4, key: "total_energy_cost", created_at: "2010-08-04 11:55:37", updated_at: "2012-03-22 16:44:43", gquery_key: "dashboard_total_costs", group: "costs", position: 4, disabled: false },
   { id: 5, key: "bio_footprint", created_at: "2010-08-04 11:55:37", updated_at: "2012-03-22 16:44:43", gquery_key: "dashboard_bio_footprint", group: "footprint", position: 5, disabled: false },
   { id: 6, key: "renewable_percentage", created_at: "2010-08-04 11:55:37", updated_at: "2012-03-22 16:44:43", gquery_key: "dashboard_renewability", group: "renewable", position: 6, disabled: false },
-  { id: 7, key: "targets_met", created_at: "2010-08-04 11:55:37", updated_at: "2012-03-22 16:44:43", gquery_key: "", group: "summary", position: 7, disabled: false },
   { id: 9, key: "household_energy_cost", created_at: "2011-11-09 12:48:34", updated_at: "2011-11-09 12:48:34", gquery_key: "dashboard_total_costs_per_household", group: "costs", position: 1, disabled: false },
   { id: 10, key: "loss_of_load", created_at: "2011-12-02 11:30:00", updated_at: "2012-01-30 13:56:33", gquery_key: "dashboard_security_of_supply", group: "import", position: 1, disabled: false },
   { id: 11, key: "renewable_electricity_percentage", created_at: "2012-01-04 14:01:41", updated_at: "2012-01-23 13:49:03", gquery_key: "dashboard_share_of_renewable_electricity", group: "renewable", position: 1, disabled: false },
@@ -2276,19 +2275,3 @@ Tab.create!([
   { id: 3, key: "supply", nl_vimeo_id: "19658916", en_vimeo_id: "20191972", position: 4 },
   { id: 4, key: "costs", nl_vimeo_id: "19658896", en_vimeo_id: "20191894", position: 3 }
 ])
-
-
-
-Target.create!([
-  { id: 1, code: "co2_emissions", query: "policy_goal_co2_emissions_value", unit: "MT", created_at: "2010-07-19 12:09:15", updated_at: "2011-11-17 12:36:52", display_format: "number_with_unit", reached_query: "policy_goal_co2_emissions_reached", target_query: "policy_goal_co2_emissions_target_value" },
-  { id: 2, code: "net_energy_import", query: "policy_goal_net_energy_import_value", unit: "pct", created_at: "2010-07-19 12:09:15", updated_at: "2011-07-15 07:47:45", display_format: "percentage", reached_query: "policy_goal_net_energy_import_reached", target_query: "policy_goal_net_energy_import_target_value" },
-  { id: 3, code: "net_electricity_import", query: "policy_goal_net_electricity_import_value", unit: "pct", created_at: "2010-07-19 12:09:15", updated_at: "2011-07-15 07:47:45", display_format: "percentage", reached_query: "policy_goal_net_electricity_import_reached", target_query: "policy_goal_net_electricity_import_target_value" },
-  { id: 4, code: "total_energy_costs", query: "policy_goal_total_energy_costs_value", unit: "&euro; bln", created_at: "2010-07-19 12:09:15", updated_at: "2011-07-15 07:47:45", display_format: "number_with_unit", reached_query: "policy_goal_total_energy_costs_reached", target_query: "policy_goal_total_energy_costs_target_value" },
-  { id: 5, code: "electricity_costs", query: "policy_goal_electricity_costs_value", unit: "&euro;/MWh", created_at: "2010-07-19 12:09:15", updated_at: "2011-07-15 07:47:45", display_format: "number_with_unit", reached_query: "policy_goal_electricity_costs_reached", target_query: "policy_goal_electricity_costs_target_value" },
-  { id: 6, code: "renewable_percentage", query: "policy_goal_renewable_percentage_value", unit: "pct", created_at: "2010-07-19 12:09:15", updated_at: "2011-07-15 07:47:45", display_format: "percentage", reached_query: "policy_goal_renewable_percentage_reached", target_query: "policy_goal_renewable_percentage_target_value" },
-  { id: 7, code: "onshore_land", query: "policy_goal_onshore_land_value", unit: "km&sup2;", created_at: "2010-07-19 12:09:15", updated_at: "2011-07-15 07:47:45", display_format: "number_with_unit", reached_query: "policy_goal_onshore_land_reached", target_query: "policy_goal_onshore_land_target_value" },
-  { id: 8, code: "onshore_coast", query: "policy_goal_onshore_coast_value", unit: "km", created_at: "2010-07-19 12:09:15", updated_at: "2011-07-15 07:47:45", display_format: "number_with_unit", reached_query: "policy_goal_onshore_coast_reached", target_query: "policy_goal_onshore_coast_target_value" },
-  { id: 9, code: "offshore", query: "policy_goal_offshore_value", unit: "km&sup2;", created_at: "2010-07-19 12:09:15", updated_at: "2011-07-15 07:47:45", display_format: "number_with_unit", reached_query: "policy_goal_offshore_reached", target_query: "policy_goal_offshore_target_value" }
-])
-
-
