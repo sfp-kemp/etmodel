@@ -168,6 +168,6 @@ nl:
     wind:
       short_name: "Windmolens"
       long_name: "Kosten windstroom"
-    file:
-      short_name: "Bestand"
-      long_name: "Bestand"
+    save:
+      short_name: "Opslaan"
+      long_name: "Opslaan"
