@@ -7,5 +7,4 @@
   var saveLink = document.getElementById('save-from-slide');
   saveLink.href = '/scenarios/' + globals.settings.active_saved_scenario_id
   saveLink.classList.remove('button--disabled')
-  $.ready();
 }
